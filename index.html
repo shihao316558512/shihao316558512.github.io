@@ -1,34 +1,195 @@
 ﻿<!DOCTYPE html>
-<html lang="en-us">
+<html>
 <head>
-    <meta charset="UTF-8">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <!--font awesome字体库-->
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <link href="Content/animate.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/wow.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
+      <script src="Scripts/html5shiv.min.js"></script>
+      <script src="Scripts/respond.min.js"></script>
     <![endif]-->
     <title>shihao316558512.github.io</title>
+    <style>
+        .index-buttom { margin-top: 30px; background-color: #f8f8f8; padding-top: 30px; padding-bottom: 30px; }
+    </style>
+    <script>
+        $(function () {
+            wow = new WOW(
+              {
+                  animateClass: 'animated',
+                  offset: 100,
+                  callback: function (box) {
+                      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+                  }
+              }
+            );
+            wow.init();
+        })
+    </script>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-4">
-                asdf
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">shihao316558512.github.io</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>-->
+                    <!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="jumbotron">
+                        <h1 class="wow fadeInDown">菜鸟前端一枚，欢迎大家多多交流</h1>
+                        <p>...</p>
+                        <p>
+                            <a class="btn btn-primary btn-lg" href="http://shihao316558512.blog.163.com/" role="button" target="_blank">网易博客</a>
+                            <a class="btn btn-primary btn-lg" href="http://www.cnblogs.com/shihao316558512/" role="button" target="_blank">博客园</a>
+                            <a class="btn btn-primary btn-lg" href="https://github.com/shihao316558512" role="button" target="_blank">GitHub</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="page-header">
+                                    <h2>简易的bootstrap后台框架</h2>
+                                </div>
+                                <ul class="list-group">
+                                    <li class="list-group-item">包含bootstrap框架</li>
+                                    <li class="list-group-item">包含font-awesome字体库</li>
+                                    <li class="list-group-item">左侧导航收起</li>
+                                    <li class="list-group-item">根据url动态选中对应页面的链接active</li>
+                                </ul>
+                                <a class="btn btn-info btn-sm" href="http://shihao316558512.blog.163.com/blog/static/18681858020153314316422/" target="_blank">简介</a>
+                                <a class="btn btn-info btn-sm" href="http://shihao316558512.github.io/bootstrap/" target="_blank">预览</a>
+                                <a class="btn btn-primary btn-sm pull-right" href="https://github.com/shihao316558512/bootstrap" target="_blank">github</a>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="page-header">
+                                    <h2>asp.net的ajax上传</h2>
+                                </div>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Handler接收图片</li>
+                                    <li class="list-group-item">按钮兼容bootstrap的样式</li>
+                                </ul>
+                                <a class="btn btn-info btn-sm" href="http://shihao316558512.blog.163.com/blog/static/18681858020153864524416/" target="_blank">简介</a>
+                                <a class="btn btn-primary btn-sm pull-right" href="https://github.com/shihao316558512/jquery-plugs-FileUploadForAsp.Net" target="_blank">github</a>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-sm-6">
+                                <div class="page-header">
+                                    <h2>asp.net的多语言处理</h2>
+                                </div>
+                                <ul class="list-group">
+                                    <li class="list-group-item">包含bootstrap框架</li>
+                                    <li class="list-group-item">包含font-awesome字体库</li>
+                                </ul>
+                                <a class="btn btn-info btn-sm" href="http://shihao316558512.blog.163.com/blog/static/18681858020141125115854376/" target="_blank">简介</a>
+                                <a class="btn btn-primary btn-sm pull-right" href="https://github.com/shihao316558512/asp.net-demo-ResourceFileUse" target="_blank">github</a>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
             </div>
-            <div class="col-sm-4">
-                asdf
 
+            <div class="col-sm-12 index-buttom">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4 wow fadeInDown">
+                                <address>
+                                    <strong>石昊</strong><br>
+                                    山东济南<br>
+                                    历城区<br>
+                                    <abbr title="Phone">
+                                        P:
+                                    </abbr>
+                                    15275102502<br />
+                                    <abbr title="QQ">
+                                        Q:
+                                    </abbr>
+                                    316558512<br />
+                                    <abbr title="Mail">
+                                        M:
+                                    </abbr>
+                                    316558512@qq.com
+                                </address>
+                            </div>
+                            <div class="col-sm-4 wow fadeInDown">
+                                <blockquote contenteditable="true">
+                                    <p>
+                                        突如其来的想法
+                                    </p>
+                                    <small>语录 <cite title="Source Title">2016/4/14 星期四</cite></small>
+                                </blockquote>
+                            </div>
+                            <div class="col-sm-4 wow fadeInDown">
+                                <div class="progress">
+                                    <div class="progress-bar progress-success" style="width: 60%;">
+                                    </div>
+                                </div>
+                                <p>心情指数</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div> 
+    </div>
 </body>
 </html>
