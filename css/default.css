@@ -1,0 +1,13 @@
+﻿
+
+.index-buttom { margin-top: 30px; background-color: #f8f8f8; padding-top: 30px; padding-bottom: 30px; }
+
+#goTop { padding: 5px 15px; position: fixed; right: 20px; bottom: 20px; display: none; background-color: #aaa; color: #fff; text-align: center; display: none; -moz-transition: background 0.5s linear; -webkit-transition: background 0.5s linear; -o-transition: background 0.5s linear; transition: background 0.5s linear; z-index: 99; }
+#goTop:hover { background: #808080; }
+
+@media (max-width:768px) {
+    .navbar-toggle[class*=pull-left] { margin-left: 15px; margin-right: 0; }
+    #goTop { padding: 0 10px; }
+}
+
+.forkme { position: absolute; top: 0; right: 0; border: 0; }
