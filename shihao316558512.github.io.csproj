@@ -85,6 +85,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-1.9.1.js" />
     <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="video\2901053766.mp4" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
