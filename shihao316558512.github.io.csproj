@@ -20,6 +20,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,14 +59,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="antutu.html" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\common.css" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\messenger\messenger-spinner.css" />
+    <Content Include="css\messenger\messenger-theme-air.css" />
+    <Content Include="css\messenger\messenger-theme-block.css" />
+    <Content Include="css\messenger\messenger-theme-flat.css" />
+    <Content Include="css\messenger\messenger-theme-future.css" />
+    <Content Include="css\messenger\messenger-theme-ice.css" />
+    <Content Include="css\messenger\messenger.css" />
+    <Content Include="css\style.css" />
     <Content Include="image\forkme.png" />
+    <Content Include="jisuan.html" />
     <Content Include="js\default.js" />
     <Content Include="js\html5shiv.min.js" />
+    <Content Include="js\messenger\messenger-theme-flat.js" />
+    <Content Include="js\messenger\messenger-theme-future.js" />
+    <Content Include="js\messenger\messenger.js" />
+    <Content Include="js\messenger\messenger.min.js" />
     <Content Include="js\respond.min.js" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
