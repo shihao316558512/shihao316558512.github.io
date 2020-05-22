@@ -1,0 +1,85 @@
+﻿
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>手机排行榜_V8_安兔兔跑分排行_安兔兔</title>
+    <meta name="keywords" content="安兔兔跑分排行,手机排行榜,手机排行,最新手机排行,手机跑分排行榜,性能最好的手机前十位" />
+    <meta name="description" content="安兔兔跑分排行，手机排行榜结果每月公布。为您提供当月手机排行榜，手机性价比榜，手机流行度榜单，以及不同价位手机推荐。" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/antutunew.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+        body { background-color: #f5f5f5; }
+        .list-group-item { background-color: #e5f3fa; border-width: 0; border-top: 1px solid #fff; }
+
+        @media(min-width:767px) {
+            .list-group-item * { width: 19.7%; display: inline-block; line-height: 25px; }
+        }
+
+        @media(max-width:767px) {
+            .list-group-item * { width: 49%; display: inline-block; line-height: 25px; }
+        }
+
+        .list-group-item .content { width: 100%; display: block; }
+    </style>
+    <script>
+        $(function () {
+            var $template = $(".list-group-item").clone();
+            $(".list-group-item").remove();
+            data.forEach(function (item) {
+                var $temp = $template.clone();
+                var html = $temp.prop("outerHTML");
+                html = html.replace("$name$", item.name);
+                html = html.replace("$time$", item.time);
+                html = html.replace("$score$", item.score);
+                html = html.replace("$price$", item.price);
+                html = html.replace("$href$", item.href);
+                html = html.replace("$content$", item.content);
+                $(".list-group").append(html);
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row rank">
+            <ul class="nav-android-tabs list-unstyled">
+                <li class="">
+                    <a href="antutu.html">性能榜</a>
+                </li>
+                <li class="active">
+                    <a href="antutunew.html">新机榜</a>
+                </li>
+                <li>
+                    <a href="antutunsuggest.html">推荐榜</a>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <ul class="list-group">
+                <!--<li class="list-group-item">
+                    <span class="name">腾讯黑鲨游戏手机3 Pro</span>
+                    <span>发布：2020年5月22日</span>
+                    <span>跑分：210000</span>
+                    <span>起售价：1988</span>
+                    <a href="#" target="_blank">查看详细</a>
+                </li>-->
+                <li class="list-group-item">
+                    <span class="name">$name$</span>
+                    <span>发布：$time$</span>
+                    <span>跑分：$score$</span>
+                    <span>起售价：$price$</span>
+                    <a href="$href$" target="_blank">查看详细</a>
+                    <span class="content">简评：$content$</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

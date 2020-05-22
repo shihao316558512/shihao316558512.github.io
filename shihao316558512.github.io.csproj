@@ -60,6 +60,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="antutu.html" />
+    <Content Include="antutunsuggest.html" />
+    <Content Include="antutunew.html" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
@@ -76,6 +78,8 @@
     <Content Include="css\style.css" />
     <Content Include="image\forkme.png" />
     <Content Include="jisuan.html" />
+    <Content Include="js\antutunsuggest.js" />
+    <Content Include="js\antutunew.js" />
     <Content Include="js\default.js" />
     <Content Include="js\html5shiv.min.js" />
     <Content Include="js\messenger\messenger-theme-flat.js" />
