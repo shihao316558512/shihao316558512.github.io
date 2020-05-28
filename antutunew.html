@@ -22,19 +22,23 @@
             body { margin-top: 42px; }
         }
 
-        .list-group-item { background-color: #e5f3fa; border-width: 0; border-top: 1px solid #fff; }
+        .list-group-item {   padding: 0; }
+        .list-group-item a { position: relative; width: 100%; display: flex; }
+        .list-group-item a .b { z-index: 2; width: 100%; padding: 10px 15px; }
+        .list-group-item a .nrank-a { height: 100%; }
         .list-group-item .name { color: red; }
         .list-group-item .title { font-size: 24px; color: #333; }
 
+
         @media(min-width:767px) {
-            .list-group-item * { width: 19.7%; display: inline-block; line-height: 25px; }
+            .list-group-item a .b * { width: 19.7%; display: inline-block; line-height: 25px; z-index: 2; }
         }
 
         @media(max-width:767px) {
-            .list-group-item * { width: 49%; display: inline-block; line-height: 25px; }
+            .list-group-item a .b * { width: 49%; display: inline-block; line-height: 25px; z-index: 2; }
         }
 
-        .list-group-item .content { width: 100%; display: block; }
+        .list-group-item .content { width: 100% !important; display: block; }
     </style>
     <script>
         $(function () {
@@ -46,7 +50,6 @@
                     item.name = item.name.replace("--", "");
                     $temp.find("span:eq(0)").addClass("title");
                     $temp.find("span:gt(0)").html("");
-                    $temp.find("a").html("");
                 }
                 var html = $temp.prop("outerHTML");
                 html = html.replace("$name$", item.name);
@@ -55,7 +58,7 @@
                 html = html.replace("$price$", item.price);
                 html = html.replace("$href$", item.href);
                 html = html.replace("$content$", item.content);
-
+                html = html.replace("$percent$", item.score / 637491 * 100);
                 $(".list-group").append(html);
             })
         })
@@ -86,12 +89,16 @@
                     <a href="#" target="_blank">查看详细</a>
                 </li>-->
                 <li class="list-group-item">
-                    <span class="name">$name$</span>
-                    <span>发布：$time$</span>
-                    <span>跑分：$score$</span>
-                    <span>起售价：$price$</span>
-                    <a href="$href$" target="_blank">查看详细</a>
-                    <span class="content">简评：$content$</span>
+                    <a href="$href$" target="_blank">
+                        <div class="nrank-a" style="width:$percent$%;"></div>
+                        <div class="b">
+                            <span class="name">$name$</span>
+                            <span>发布：$time$</span>
+                            <span>跑分：$score$</span>
+                            <span>起售价：$price$</span>
+                            <span class="content">简评：$content$</span>
+                        </div>
+                    </a>
                 </li>
             </ul>
         </div>
