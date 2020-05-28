@@ -13,10 +13,13 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" />
     <script src="js/jquery-1.9.1.min.js"></script>
     <link href="css/style.css" rel="stylesheet" />
-    <script src="js/antutunsuggest.js"></script>
+    <script src="js/antutunew.js"></script>
     <style>
         body { background-color: #f5f5f5; }
         .list-group-item { background-color: #e5f3fa; border-width: 0; border-top: 1px solid #fff; }
+        .list-group-item .name { color: red; }
+        .list-group-item .title { font-size: 24px; color: #333; }
+
         @media(min-width:767px) {
             .list-group-item * { width: 19.7%; display: inline-block; line-height: 25px; }
         }
@@ -29,19 +32,22 @@
     </style>
     <script>
         $(function () {
+            var array = ["Redmi 10X（5g版）", "荣耀x10", "一加8", "荣耀Play4T Pro", "荣耀30S", "小米10", "小米10pro"];
             var $template = $(".list-group-item").clone();
             $(".list-group-item").remove();
             data.forEach(function (item) {
-                var $temp = $template.clone();
-                var html = $temp.prop("outerHTML");
-                html = html.replace("$name$", item.name);
-                html = html.replace("$time$", item.time);
-                html = html.replace("$score$", item.score);
-                html = html.replace("$price$", item.price);
-                html = html.replace("$href$", item.href);
-                html = html.replace("$content$", item.content);
-                $(".list-group").append(html);
-            })
+                if (array.indexOf(item.name) > -1) {
+                    var $temp = $template.clone();
+                    var html = $temp.prop("outerHTML");
+                    html = html.replace("$name$", item.name);
+                    html = html.replace("$time$", item.time);
+                    html = html.replace("$score$", item.score);
+                    html = html.replace("$price$", item.price);
+                    html = html.replace("$href$", item.href);
+                    html = html.replace("$content$", item.content);
+                    $(".list-group").append(html);
+                }
+            });
         })
     </script>
 </head>
