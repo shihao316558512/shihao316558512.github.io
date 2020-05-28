@@ -15,6 +15,7 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
+--2020年6月
 	   vivoX50			2020年6月1日		待发布						
 			--2020年5月
 			Redmi 10X pro（5g版）	2020年5月26日		2299		410234			https://u.jd.com/2GgcIM		5g手机，重量208g，4520mAh，33w有线快充，天玑820中高端cpu，三星AMOLED屏幕，z轴线性马达，有nfc

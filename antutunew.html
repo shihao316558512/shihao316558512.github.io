@@ -13,9 +13,15 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" />
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/antutunew.js"></script>
+    <link href="css/common.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <style>
-        body { background-color: #f5f5f5; }
+        body { background-color: #f5f5f5; margin-top: 65px; }
+
+        @media(max-width:767px) {
+            body { margin-top: 42px; }
+        }
+
         .list-group-item { background-color: #e5f3fa; border-width: 0; border-top: 1px solid #fff; }
         .list-group-item .name { color: red; }
         .list-group-item .title { font-size: 24px; color: #333; }
@@ -58,7 +64,7 @@
 <body>
     <div class="container">
         <div class="row rank">
-            <ul class="nav-android-tabs list-unstyled">
+            <ul class="nav-android-tabs list-unstyled navbar-fixed-top">
                 <li class="">
                     <a href="antutu.html">性能榜</a>
                 </li>
@@ -90,5 +96,29 @@
             </ul>
         </div>
     </div>
+    <!-- 右侧固定栏 -->
+    <div class="aside">
+        <!--右侧固定栏 返回顶部-->
+        <div class="back-to-top gotop aside-a">
+            <a href="#">
+                <span class="fa fa-angle-up"></span>
+                <span class="gt">返回<br />顶部</span>
+            </a>
+        </div>
+    </div>
+    <script>
+        $(document).scroll(function () {
+            // 返回顶部
+            if ($(window).width() > 768) {
+                var top = $(document).scrollTop();
+                if (top > 150) {
+                    $(".gotop").show();
+                } else {
+                    $(".gotop").hide();
+                }
+            }
+        });
+
+    </script>
 </body>
 </html>
