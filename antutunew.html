@@ -22,7 +22,7 @@
             body { margin-top: 42px; }
         }
 
-        .list-group-item {   padding: 0; }
+        .list-group-item { padding: 0; }
         .list-group-item a { position: relative; width: 100%; display: flex; }
         .list-group-item a .b { z-index: 2; width: 100%; padding: 10px 15px; }
         .list-group-item a .nrank-a { height: 100%; }
@@ -48,6 +48,7 @@
                 var $temp = $template.clone();
                 if (item.name.indexOf("--") > -1) {
                     item.name = item.name.replace("--", "");
+                    $temp.find("a").removeAttr("href").removeAttr("target");
                     $temp.find("span:eq(0)").addClass("title");
                     $temp.find("span:gt(0)").html("");
                 }
