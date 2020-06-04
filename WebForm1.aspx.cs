@@ -29,7 +29,7 @@ namespace shihao316558512.github.io
 			realme X50 Pro玩家版	2020年5月25日		2699		594706			https://u.jd.com/OPBhLZ		5g手机，重量209g，4200mAh，65w有线快充，高通865顶级cpu，90hz三星Super AMOLED屏幕，z轴线性马达
 			华为畅享z		2020年5月24日		1699		373377			https://u.jd.com/g4J6jW		5g手机，重量182g，4000mAh，22.5有线快充，天玑800中端cpu，90hzLCD屏幕
 			荣耀x10			2020年5月20日		1899		373377			https://u.jd.com/XgwBrZ		5g手机，重量203g，4300mAh，22.5w有线快充，麒麟820中高端cpu，Lcd 90hz屏幕，升降摄像头，建议至少买6+128版本
-			iqooz1			2020年5月19日		2198		526401			https://u.jd.com/IoU84V	     	5g手机，重量194g，4500mAh，44w有线快充，天玑1000+高端cpu，Lcd 144hz屏幕，vivo子品牌，性价比高
+			iqooz1			2020年5月19日		2198		526401			https://u.jd.com/IoU84V		5g手机，重量194g，4500mAh，44w有线快充，天玑1000+高端cpu，Lcd 144hz屏幕，vivo子品牌，性价比高
 			Redmi K30极速版		2020年5月11日		1999		349194			https://u.jd.com/8qiWS9		5g手机，重量208g，4500mAh，30W有线快充，高通768g中高端cpu，Lcd 120hz刷新率屏幕，nfc 
 			魅族17			2020年5月8日		3699		577763			https://u.jd.com/VpVUat		5g手机，重量199g，4500mAh，30w有线快充，高通865顶级cpu，顶级配置，x轴线性马达，nfc
 			魅族17 Pro		2020年5月8日 		4299		590826			https://u.jd.com/uOarQZ		5g手机，重量219g，4500mAh，30w有线快充，27w无线快充，高通865高端cpu，顶级配置，x轴线性马达，nfc
