@@ -17,7 +17,7 @@ namespace shihao316558512.github.io
             string a = @"
 --2020年6月														
 			荣耀Play4		2020年6月3日		1799		315000			https://u.jd.com/GnmRC3		5g手机，重量213g，4300mAh，22.4w有线快充，天玑800中端cpu，Lcd单挖孔屏
-			荣耀Play4Pro		2020年6月3日		2899		480000			https://u.jd.com/Srr9ef		5g手机，重量213g，4200mAh，40w有线快充，麒麟990高端cpu，lcd双挖孔屏，无接触红外测温，有nfc
+			荣耀Play4Pro		2020年6月3日		2899		480000			https://u.jd.com/Srr9ef		5g手机，重量213g，4200mAh，40w有线快充，麒麟990外挂5g顶级cpu，lcd双挖孔屏，无接触红外测温，有nfc
 			vivoX50			2020年6月1日		3498		334135			https://u.jd.com/0X0ssv		5g手机，重量174g，4200mAh，33w有线快充，高通765g中端cpu，90hz超薄柔性屏，有nfc
 			vivoX50 Pro		2020年6月1日		4298		334135			https://u.jd.com/gTdHid		5g手机，重量181g，4315mAh，33w有线快充，高通765g中端cpu，90hz轻薄曲面屏，主打微云台超感光主摄，nfc
 			vivoX50	Pro+		2020年6月1日		4998					7月开售				5g手机，重量174g，4350mAh，44w有线快充，高通865顶级cpu，120hz曲面屏，nfc
@@ -85,9 +85,15 @@ namespace shihao316558512.github.io
 			vivo X30 Pro		2019年12月16日		3998		327092			https://u.jd.com/sJMr2o		5g手机，重量198g，4350mAh，33W有线快充，三星Exynos980中端cpu，5倍潜望式长焦镜头
 			Redmi K30（5g）		2019年12月10日		1999		329704			https://u.jd.com/lpKFLp		5g手机，重量208g，4350mAh，30W有线快充，高通765g中端cpu，Lcd 120hz刷新率屏幕，nfc
 			Redmi K30（4g）		2019年12月10日		1599		278852			https://u.jd.com/Hz8hRt		4g手机，重量208g，4500mAh，27w有线快充，高通730g中低端cpu，Lcd 120hz刷新率屏幕，nfc
-			nova6 5G		2019年12月5日		3799		455280			https://u.jd.com/nSg6Zn	        5g手机，重量212g，4200mAh，40w有线快充，麒麟990顶级cpu，nfc
+			nova6 5G		2019年12月5日		3799		455280			https://u.jd.com/nSg6Zn	        5g手机，重量212g，4200mAh，40w有线快充，麒麟990外挂5g顶级cpu，nfc
 			nova6			2019年12月5日		3199		445630			https://u.jd.com/B2sFT3		4g手机，重量197g，4200mAh，40w有线快充，麒麟990顶级cpu，nfc
-			nova6 SE		2019年12月5日		2199		321126			https://u.jd.com/1FpD6F		4g手机，重量183g，4200mAh，40w有线快充，麒麟810中端cpu，
+			nova6 SE		2019年12月5日		2199		321126			https://u.jd.com/1FpD6F		4g手机，重量183g，4200mAh，40w有线快充，麒麟810中端cpu
+			--2019年11
+			荣耀V30 		2019年11月26日		3299		454642			https://u.jd.com/WCYcL4		5g手机，重量213g，4200mAh，40w有线快充，麒麟990外挂5g顶级cpu，LCD双挖孔屏，有nfc
+			荣耀V30 PRO		2019年11月26日		3899		488940			https://u.jd.com/w384Yi		5g手机，重量206g，4100mAh，40w有线快充，27W无线充，还有7.5W反向充电，麒麟990顶级cpu，LCD双挖孔屏，主打拍照旗舰，有nfc，降价可买
+			--2019年10
+			oppo Reno Ace		2019年10月10日		2999		500802			https://u.jd.com/K8KOkQ		4g手机，重量185g，4000mAh，65w有线快充，高通855plus顶级cpu，三星Amoled90Hz屏幕，有nfc，如果暂时不需要5g，降价可买
+
 ";
             string[] b = a.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
             List<Mobile> mobileList = new List<Mobile>();
@@ -98,12 +104,12 @@ namespace shihao316558512.github.io
                     string[] mobiles = item.Split(new string[] { "\t" }, StringSplitOptions.RemoveEmptyEntries);
                     mobileList.Add(new Mobile()
                     {
-                        name = mobiles[0],
-                        time = mobiles.Length > 1 ? mobiles[1] : string.Empty,
-                        price = mobiles.Length > 2 ? mobiles[2] : string.Empty,
-                        score = mobiles.Length > 3 ? mobiles[3] : string.Empty,
-                        href = mobiles.Length > 4 ? mobiles[4] : string.Empty,
-                        content = mobiles.Length > 5 ? mobiles[5] : string.Empty
+                        name = mobiles[0].Trim(),
+                        time = mobiles.Length > 1 ? mobiles[1].Trim() : string.Empty,
+                        price = mobiles.Length > 2 ? mobiles[2].Trim() : string.Empty,
+                        score = mobiles.Length > 3 ? mobiles[3].Trim() : string.Empty,
+                        href = mobiles.Length > 4 ? mobiles[4].Trim() : string.Empty,
+                        content = mobiles.Length > 5 ? mobiles[5].Trim() : string.Empty
                     });
                 }
 
