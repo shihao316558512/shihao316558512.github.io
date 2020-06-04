@@ -15,13 +15,19 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
---2020年6月
-	   vivoX50			2020年6月1日		待发布						
+--2020年6月														
+			荣耀Play4		2020年6月3日		1799		315000			https://u.jd.com/GnmRC3		5g手机，重量213g，4300mAh，22.4w有线快充，天玑800中端cpu，Lcd单挖孔屏
+			荣耀Play4Pro		2020年6月3日		2899		480000			https://u.jd.com/Srr9ef		5g手机，重量213g，4200mAh，40w有线快充，麒麟990高端cpu，lcd双挖孔屏，无接触红外测温，有nfc
+			vivoX50			2020年6月1日		3498		334135			https://u.jd.com/0X0ssv		5g手机，重量174g，4200mAh，33w有线快充，高通765g中端cpu，90hz超薄柔性屏，有nfc
+			vivoX50 Pro		2020年6月1日		4298		334135			https://u.jd.com/gTdHid		5g手机，重量181g，4315mAh，33w有线快充，高通765g中端cpu，90hz轻薄曲面屏，主打微云台超感光主摄，nfc
+			vivoX50	Pro+		2020年6月1日		4998					7月开售				5g手机，重量174g，4350mAh，44w有线快充，高通865顶级cpu，120hz曲面屏，nfc
 			--2020年5月
+			vivoY70s		2020年5月26日		1998		288005			https://u.jd.com/JLQG6D		5g手机，重量190g，4500mAh，18w有线快充，三星Exynos880中端cpu，Lcd打孔屏
 			Redmi 10X pro（5g版）	2020年5月26日		2299		410234			https://u.jd.com/2GgcIM		5g手机，重量208g，4520mAh，33w有线快充，天玑820中高端cpu，三星AMOLED屏幕，z轴线性马达，有nfc
 			Redmi 10X（5g版）	2020年5月26日		1599		410209			https://u.jd.com/6XwLz2		5g手机，重量205g，4520mAh，22.5w有线快充，天玑820中高端cpu，三星AMOLED屏幕，z轴线性马达，建议至少买6+128版本
 			Redmi 10X（4g版）	2020年5月26日		999		208493			https://u.jd.com/DJczHK		4g手机，重量199g，5020mAh，18w有线快充，9w无线反向充电，联发科g85中低端cpu，Lcd挖孔屏，适合父母用
 			realme X50 Pro玩家版	2020年5月25日		2699		594706			https://u.jd.com/OPBhLZ		5g手机，重量209g，4200mAh，65w有线快充，高通865顶级cpu，90hz三星Super AMOLED屏幕，z轴线性马达
+			华为畅享z		2020年5月24日		1699		373377			https://u.jd.com/g4J6jW		5g手机，重量182g，4000mAh，22.5有线快充，天玑800中端cpu，90hzLCD屏幕
 			荣耀x10			2020年5月20日		1899		373377			https://u.jd.com/XgwBrZ		5g手机，重量203g，4300mAh，22.5w有线快充，麒麟820中高端cpu，Lcd 90hz屏幕，升降摄像头，建议至少买6+128版本
 			iqooz1			2020年5月19日		2198		526401			https://u.jd.com/IoU84V	     	5g手机，重量194g，4500mAh，44w有线快充，天玑1000+高端cpu，Lcd 144hz屏幕，vivo子品牌，性价比高
 			Redmi K30极速版		2020年5月11日		1999		349194			https://u.jd.com/8qiWS9		5g手机，重量208g，4500mAh，30W有线快充，高通768g中高端cpu，Lcd 120hz刷新率屏幕，nfc 
