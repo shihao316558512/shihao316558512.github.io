@@ -15,7 +15,9 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
---2020年6月														
+	--2020年6月														
+			oppo Reno4		2020年6月5日		2999		340000			https://u.jd.com/Kqk0bq		5g手机，重量183g，4020mAh，65w有线快充，高通765G中端cpu，2.5D打孔曲面屏，有nfc，主打视频拍摄
+			oppo Reno4 Pro		2020年6月5日		3799		340000			https://u.jd.com/IpO6rG		5g手机，重量172g，4000mAh，65w有线快充，高通765G中端cpu，90Hz刷新率3D曲面屏，有nfc
 			荣耀Play4		2020年6月3日		1799		315000			https://u.jd.com/GnmRC3		5g手机，重量213g，4300mAh，22.4w有线快充，天玑800中端cpu，Lcd单挖孔屏
 			荣耀Play4Pro		2020年6月3日		2899		480000			https://u.jd.com/Srr9ef		5g手机，重量213g，4200mAh，40w有线快充，麒麟990外挂5g顶级cpu，lcd双挖孔屏，无接触红外测温，有nfc
 			vivoX50			2020年6月1日		3498		334135			https://u.jd.com/0X0ssv		5g手机，重量174g，4200mAh，33w有线快充，高通765g中端cpu，90hz超薄柔性屏，有nfc
@@ -25,7 +27,7 @@ namespace shihao316558512.github.io
 			vivoY70s		2020年5月26日		1998		288005			https://u.jd.com/JLQG6D		5g手机，重量190g，4500mAh，18w有线快充，三星Exynos880中端cpu，Lcd打孔屏
 			Redmi 10X pro（5g版）	2020年5月26日		2299		410234			https://u.jd.com/2GgcIM		5g手机，重量208g，4520mAh，33w有线快充，天玑820中高端cpu，三星AMOLED屏幕，z轴线性马达，有nfc
 			Redmi 10X（5g版）	2020年5月26日		1599		410209			https://u.jd.com/6XwLz2		5g手机，重量205g，4520mAh，22.5w有线快充，天玑820中高端cpu，三星AMOLED屏幕，z轴线性马达，建议至少买6+128版本
-			Redmi 10X（4g版）	2020年5月26日		999		208493			https://u.jd.com/DJczHK		4g手机，重量199g，5020mAh，18w有线快充，9w无线反向充电，联发科g85中低端cpu，Lcd挖孔屏，适合父母用
+			Redmi 10X（4g版）	2020年5月26日		999		208493			https://u.jd.com/DJczHK		4g手机，重量199g，5020mAh，18w有线快充，9w无线反向充电，联发科g85低端cpu，Lcd挖孔屏，适合父母用
 			realme X50 Pro玩家版	2020年5月25日		2699		594706			https://u.jd.com/OPBhLZ		5g手机，重量209g，4200mAh，65w有线快充，高通865顶级cpu，90hz三星Super AMOLED屏幕，z轴线性马达
 			华为畅享z		2020年5月24日		1699		373377			https://u.jd.com/g4J6jW		5g手机，重量182g，4000mAh，22.5有线快充，天玑800中端cpu，90hzLCD屏幕
 			荣耀x10			2020年5月20日		1899		373377			https://u.jd.com/XgwBrZ		5g手机，重量203g，4300mAh，22.5w有线快充，麒麟820中高端cpu，Lcd 90hz屏幕，升降摄像头，建议至少买6+128版本
@@ -35,7 +37,7 @@ namespace shihao316558512.github.io
 			魅族17 Pro		2020年5月8日 		4299		590826			https://u.jd.com/uOarQZ		5g手机，重量219g，4500mAh，30w有线快充，27w无线快充，高通865高端cpu，顶级配置，x轴线性马达，nfc
 			--2020年4月
 			小米10青春版		2020年4月27日		2099		324162			https://u.jd.com/fLbYHh		5g手机，重量192g，4160mAh，20w有线快充，高通765g中端cpu，50倍潜望长焦镜头，nfc
-			vivo Y50		2020年4月25日		1698		192319			https://u.jd.com/lxNdIv		4g手机，重量197g，5000mAh，18w有线快充，骁龙665低端cpu，性能比较低，但有5000mAh大电池，续航好，8+128，存储容量够用，适合老人用
+			vivo Y50		2020年4月25日		1698		192319			https://u.jd.com/lxNdIv		4g手机，重量197g，5000mAh，18w有线快充，高通665低端cpu，性能比较低，但有5000mAh大电池，续航好，8+128，存储容量够用，适合老人用
 			iQOO Neo3		2020年4月23日		2698		600893			https://u.jd.com/ZzrqtH		5g手机，重量198g，4500mAh，44w有线快充，高通865顶级cpu,Lcd 144hz刷新率屏幕，性价比高
 			华为Nova7SE		2020年4月23日		2799   		363923			https://u.jd.com/1VaAvl		5g手机，重量189g，4000mAh，40w有线快充，麒麟820中端cpu，适合学生，女生
 			华为nova7		2020年4月23日		3399   		404215			https://u.jd.com/CFmAyc		5g手机，重量180g，4000mAh，40w有线快充，麒麟985中高端cpu，没有高刷新率屏幕，性能略微强于麒麟820，nfc，拍照好
@@ -53,7 +55,7 @@ namespace shihao316558512.github.io
 			荣耀Play4T Pro		2020年4月9日		1499  		303057			https://u.jd.com/0y5UbM		4g手机，重量165g，4000mAh，22.5w有线快充，麒麟810中端cpu，OLED屏幕，屏幕指纹识别
 			华为p40			2020年4月8日		4188  		455633			https://u.jd.com/skUgwm		5g手机，重量175g，3800mAh，22.5w有线快充，麒麟990顶级cpu，Z轴线性马达，nfc
 			华为p40pro		2020年4月8日		5988   		468764			https://u.jd.com/PyJ1yX		5g手机，重量209g，4200mAh，40w有线快充，20w无线快充，无线反向充电，麒麟990顶级cpu，90hz刷新率，Z轴线性马达，nfc
-			华为p40pro+		2020年4月8日		7988		468764			https://u.jd.com/PyJ1yX		5g手机，重量226g，4200mAh，40w有线快充，40w无线快充，无线反向充电，麒麟990顶级cpu，90hz刷新率，Z轴线性马达，nfc
+			华为p40pro+		2020年4月8日		7988		468764			https://u.jd.com/Fe2IXk		5g手机，重量226g，4200mAh，40w有线快充，40w无线快充，无线反向充电，麒麟990顶级cpu，90hz刷新率，Z轴线性马达，nfc
 			--2020年3月
 			vivo S6			2020年3月31日		2698		330696			https://u.jd.com/HyKJTJ		5g手机，重量181g，4500mAh，18w有线快充，三星Exynos980中端cpu，三星AMOLED屏幕
 			荣耀30S			2020年3月30日		2399		364077			https://u.jd.com/6CIiPl		5g手机，重量190g，4000mAh，40w有线快充，麒麟820中高端cpu，lcd屏幕，比较推荐的一款机型
@@ -66,7 +68,7 @@ namespace shihao316558512.github.io
 			OPPO Find X2 Pro	2020年3月6日		6999		607147			https://u.jd.com/mWLXNM		5g手机，重量200g，4260mAh，65w有线快充，高通865顶级cpu，AMOLED120hz QHD+屏幕，nfc，X轴线性马达
 			腾讯黑鲨游戏手机3	2020年3月3日		3499		570680			https://u.jd.com/s2aemc		5g手机，重量222g，4720mAh，65w有线快充，高通865顶级cpu，三星AMOLED 90hz屏幕，z轴线性马达
 			腾讯黑鲨游戏手机3 Pro	2020年3月3日		4699		586062			https://u.jd.com/nbkqbu		5g手机，重量253g，5000mAh，65w有线快充，高通865顶级cpu，三星AMOLED QHD+ 90hz屏幕，x轴线性马达
-			华为畅享10e		2020年3月1日		999		87624			https://u.jd.com/abDjsK		4g手机，重量185g，5000mAh，10w有线快充，mtk p35低端cpu，不建议买
+			华为畅享10e		2020年3月1日		999		87624			https://u.jd.com/abDjsK		4g手机，重量185g，5000mAh，10w有线快充，mtk p35垃圾cpu，不建议买
 			--2020年2月
 			vivo Z6			2020年2月29日		2298 		323684			https://u.jd.com/QEJLe9		5g手机，重量201g，5000mAh，44w有线快充，高通765g中端cpu，lcd单挖孔屏幕
 			三星S20			2020年2月27日 		6999   		556393			https://u.jd.com/Umj06e		5g手机，重量163g，4000mAh，25W有线快充，高通865顶级cpu，年度旗舰配置，闭眼买
@@ -90,10 +92,12 @@ namespace shihao316558512.github.io
 			nova6 SE		2019年12月5日		2199		321126			https://u.jd.com/1FpD6F		4g手机，重量183g，4200mAh，40w有线快充，麒麟810中端cpu
 			--2019年11
 			荣耀V30 		2019年11月26日		3299		454642			https://u.jd.com/WCYcL4		5g手机，重量213g，4200mAh，40w有线快充，麒麟990外挂5g顶级cpu，LCD双挖孔屏，有nfc
-			荣耀V30 PRO		2019年11月26日		3899		488940			https://u.jd.com/w384Yi		5g手机，重量206g，4100mAh，40w有线快充，27W无线充，还有7.5W反向充电，麒麟990顶级cpu，LCD双挖孔屏，主打拍照旗舰，有nfc，降价可买
+			荣耀V30 PRO 		2019年11月26日		3899		488940			https://u.jd.com/w384Yi		5g手机，重量206g，4100mAh，40w有线快充，27W无线充，还有7.5W反向充电，麒麟990顶级cpu，LCD双挖孔屏，主打拍照旗舰，有nfc，降价可买
 			--2019年10
 			oppo Reno Ace		2019年10月10日		2999		500802			https://u.jd.com/K8KOkQ		4g手机，重量185g，4000mAh，65w有线快充，高通855plus顶级cpu，三星Amoled90Hz屏幕，有nfc，如果暂时不需要5g，降价可买
-
+			--2019年8
+			Redmi Note8		2019年8月29日		899		175623			https://u.jd.com/h1ASv6		4g手机，重量190g，4000mAh，18w有线快充，高通665低端cpu，1000内可选
+			Redmi Note8 Pro		2019年8月29日		1399		289559			https://u.jd.com/8J12i2		4g手机，重量199g，4500mAh，18w有线快充，联发科g90t中低端cpu，有nfc，水桶机，建议选购8+128版本，目前售价在1500内
 ";
             string[] b = a.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
             List<Mobile> mobileList = new List<Mobile>();
