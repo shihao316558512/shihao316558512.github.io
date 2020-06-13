@@ -63,7 +63,7 @@
                 html = html.replace("$battery$", item.battery);
                 html = html.replace("$charge$", item.charge);
                 html = html.replace("$content$", item.content);
-                html = html.replace("$percent$", item.score / 637491 * 100);
+                html = html.replace("$percent$", "style='width:" + item.score / 637491 * 100 + "%;'");
                 $(".list-group").append(html);
             })
         })
@@ -104,7 +104,7 @@
                 </li>-->
                 <li class="list-group-item">
                     <a href="$href$" target="_blank">
-                        <div class="nrank-a" style="width:$percent$%;"></div>
+                        <div class="nrank-a" $percent$></div>
                         <div class="b">
                             <span class="name">$name$</span>
                             <span>发布：$time$</span>
