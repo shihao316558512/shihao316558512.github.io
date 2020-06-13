@@ -64,7 +64,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="antutu.html" />
-    <Content Include="antutunsuggest.html" />
+    <Content Include="antutubattery.html" />
+    <Content Include="antutuweight.html" />
+    <Content Include="antutucharge.html" />
+    <Content Include="antutusuggest.html" />
     <Content Include="antutunew.html" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.css" />
