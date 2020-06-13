@@ -85,8 +85,6 @@
     <Content Include="css\style.css" />
     <Content Include="image\forkme.png" />
     <Content Include="jisuan.html" />
-    <Content Include="js\antutunew - 复制.js" />
-    <Content Include="js\antutunsuggest.js" />
     <Content Include="js\antutunew.js" />
     <Content Include="js\default.js" />
     <Content Include="js\html5shiv.min.js" />

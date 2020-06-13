@@ -15,14 +15,14 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
-			--2020年6月														
+	--2020年6月														
 			oppo Reno4		2020年6月5日		2999		340000			https://u.jd.com/Kqk0bq		183	5g	4020	65		高通765G中端cpu，2.5D打孔曲面屏，有nfc，主打视频拍摄
 			oppo Reno4 Pro		2020年6月5日		3799		340000			https://u.jd.com/IpO6rG		172	5g	4000	65		高通765G中端cpu，90Hz刷新率3D曲面屏，有nfc
 			荣耀Play4		2020年6月3日		1799		315000			https://u.jd.com/GnmRC3		213	5g	4300	22.5		天玑800中端cpu，Lcd单挖孔屏
 			荣耀Play4Pro		2020年6月3日		2899		480000			https://u.jd.com/Srr9ef		213	5g	4200	40		麒麟990外挂5g顶级cpu，lcd双挖孔屏，无接触红外测温，有nfc
 			vivoX50			2020年6月1日		3498		334135			https://u.jd.com/0X0ssv		174	5g	4200	33		高通765g中端cpu，90hz超薄柔性屏，有nfc
 			vivoX50 Pro		2020年6月1日		4298		334135			https://u.jd.com/gTdHid		181	5g	4315	33		高通765g中端cpu，90hz轻薄曲面屏，主打微云台超感光主摄，nfc
-			vivoX50	Pro+		2020年6月1日		4998					7月开售				174	5g	4350	44		高通865顶级cpu，120hz曲面屏，nfc
+			vivoX50 Pro+		2020年6月1日		4998		600000			7月开售				174	5g	4350	44		高通865顶级cpu，120hz曲面屏，nfc
 			--2020年5月														          	    	
 			vivoY70s		2020年5月26日		1998		288005			https://u.jd.com/JLQG6D		190	5g	4500	18		三星Exynos880中端cpu，Lcd打孔屏
 			Redmi 10X pro（5g版）	2020年5月26日		2299		410234			https://u.jd.com/2GgcIM		208	5g	4520	33		天玑820中高端cpu，三星AMOLED屏幕，z轴线性马达，有nfc
