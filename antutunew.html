@@ -50,7 +50,7 @@
                 if (item.name.indexOf("--") > -1) {
                     item.name = item.name.replace("--", "");
                     $temp.find("a").removeAttr("href").removeAttr("target");
-                    $temp.find("span:eq(0)").addClass("title");
+                    $temp.find("span:eq(0)").addClass("title").siblings().remove();
                     $temp.find("span:gt(0)").html("");
                 }
                 var html = $temp.prop("outerHTML");
@@ -155,6 +155,6 @@
             }
         });
 
-    </script> 
+    </script>
 </body>
 </html>
