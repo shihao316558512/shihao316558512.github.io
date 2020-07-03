@@ -15,8 +15,11 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
-	--2020年6月
-			Redmi 9			2020年6月24		799		200000			https://u.jd.com/pD2YZz		198	4g	5020	18		联发科g80中低端cpu，入门机
+	--2020年7月
+			荣耀30青春版		2020年7月3日		1699		278360			https://u.jd.com/qKytDk		192	5g	4000	22.5		联发科天玑800中端cpu，90hz刷新率lcd
+			荣耀X10 Max		2020年7月3日		1899		314879			https://u.jd.com/6ALJH7		227	5g	5000	22.5		联发科天玑800中端cpu，7.09英寸屏幕，双扬声器，nfc
+			--2020年6月															
+			Redmi 9			2020年6月24日		799		200000			https://u.jd.com/pD2YZz		198	4g	5020	18		联发科g80中低端cpu，入门机
 			oppo Reno4		2020年6月5日		2999		340000			https://u.jd.com/Kqk0bq		183	5g	4020	65		高通765G中端cpu，2.5D打孔曲面屏，有nfc，主打视频拍摄
 			oppo Reno4 Pro		2020年6月5日		3799		340000			https://u.jd.com/IpO6rG		172	5g	4000	65		高通765G中端cpu，90Hz刷新率3D曲面屏，有nfc
 			荣耀Play4		2020年6月3日		1799		315000			https://u.jd.com/GnmRC3		213	5g	4300	22.5		联发科天玑800中端cpu，Lcd单挖孔屏
@@ -31,7 +34,7 @@ namespace shihao316558512.github.io
 			Redmi 10X（5g版）	2020年5月26日		1599		410209			https://u.jd.com/6XwLz2		205	5g	4520	22.5		联发科天玑820中高端cpu，三星AMOLED屏幕，z轴线性马达，建议至少买6+128版本
 			Redmi 10X（4g版）	2020年5月26日		999		208493			https://u.jd.com/DJczHK		199	4g	5020	18		9w无线反向充电，联发科g85低端cpu，Lcd挖孔屏，适合父母用
 			realme X50 Pro玩家版	2020年5月25日		2699		594706			https://u.jd.com/OPBhLZ		209	5g	4200	65		高通865顶级cpu，90hz三星Super AMOLED屏幕，z轴线性马达
-			华为畅享z		2020年5月24日		1699		373377			https://u.jd.com/g4J6jW		182	5g	4000	22.5		联发科天玑800中端cpu，90hzLCD屏幕
+			华为畅享z		2020年5月24日		1699		316328			https://u.jd.com/g4J6jW		182	5g	4000	22.5		联发科天玑800中端cpu，90hzLCD屏幕
 			荣耀x10			2020年5月20日		1899		373377			https://u.jd.com/XgwBrZ		203	5g	4300	22.5		麒麟820中高端cpu，Lcd 90hz屏幕，升降摄像头，建议至少买6+128版本
 			iqooz1			2020年5月19日		2198		526401			https://u.jd.com/IoU84V		194	5g	4500	44		联发科天玑1000+高端cpu，Lcd 144hz屏幕，vivo子品牌，性价比高
 			Redmi K30极速版		2020年5月11日		1999		349194			https://u.jd.com/8qiWS9		208	5g	4500	30		高通768g中高端cpu，Lcd 120hz刷新率屏幕，nfc 
