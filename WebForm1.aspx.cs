@@ -15,7 +15,8 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
-	--2020年7月
+					--2020年7月
+			iQOOZ1x			2020年7月9日		1598		336098							199	5g	5000	33		高通765G中端cpu,120Hz刷新率lcd
 			荣耀30青春版		2020年7月3日		1699		278360			https://u.jd.com/qKytDk		192	5g	4000	22.5		联发科天玑800中端cpu，90hz刷新率lcd
 			荣耀X10 Max		2020年7月3日		1899		314879			https://u.jd.com/6ALJH7		227	5g	5000	22.5		联发科天玑800中端cpu，7.09英寸屏幕，双扬声器，nfc
 			--2020年6月															
@@ -26,7 +27,7 @@ namespace shihao316558512.github.io
 			荣耀Play4Pro		2020年6月3日		2899		480000			https://u.jd.com/Srr9ef		213	5g	4200	40		麒麟990外挂5g顶级cpu，lcd双挖孔屏，无接触红外测温，有nfc
 			vivoX50			2020年6月1日		3498		334135			https://u.jd.com/0X0ssv		174	5g	4200	33		高通765g中端cpu，90hz超薄柔性屏，有nfc
 			vivoX50 Pro		2020年6月1日		4298		334135			https://u.jd.com/gTdHid		181	5g	4315	33		高通765g中端cpu，90hz轻薄曲面屏，主打微云台超感光主摄，nfc
-			vivoX50 Pro+		2020年6月1日		4998		600000			https://u.jd.com/J8nNQq		174	5g	4350	44		高通865顶级cpu，120hz曲面屏，nfc
+			vivoX50 Pro+		2020年6月1日		4998		600219			https://u.jd.com/J8nNQq		174	5g	4350	44		高通865顶级cpu，120hz曲面屏，nfc
 			Axon11 SE		2020年6月1号		1998		334352			https://u.jd.com/c3mDNp		184	5g	4000	18		联发科天玑800中端cpu
 			--2020年5月														          	    	
 			vivoY70s		2020年5月26日		1998		288005			https://u.jd.com/JLQG6D		190	5g	4500	18		三星Exynos880中端cpu，Lcd打孔屏
@@ -92,18 +93,22 @@ namespace shihao316558512.github.io
 			vivo X30 Pro		2019年12月16日		3998		327092			https://u.jd.com/sJMr2o		198	5g	4350	33		三星Exynos980中端cpu，5倍潜望式长焦镜头
 			Redmi K30（5g）		2019年12月10日		1999		329704			https://u.jd.com/lpKFLp		208	5g	4350	30		高通765g中端cpu，Lcd 120hz刷新率屏幕，nfc
 			Redmi K30（4g）		2019年12月10日		1599		278852			https://u.jd.com/Hz8hRt		208	4g	4500	27		高通730g中低端cpu，Lcd 120hz刷新率屏幕，nfc
-			nova6 5G		2019年12月5日		3799		455280			https://u.jd.com/nSg6Zn	        212	5g	4200	40		麒麟990外挂5g顶级cpu，nfc
-			nova6			2019年12月5日		3199		445630			https://u.jd.com/B2sFT3		197	4g	4200	40		麒麟990顶级cpu，nfc
+			nova6（5g）		2019年12月5日		3799		455280			https://u.jd.com/nSg6Zn	        212	5g	4200	40		麒麟990外挂5g顶级cpu，nfc
+			nova6（4g）		2019年12月5日		3199		445630			https://u.jd.com/B2sFT3		197	4g	4200	40		麒麟990顶级cpu，nfc
 			nova6 SE		2019年12月5日		2199		321126			https://u.jd.com/1FpD6F		183	4g	4200	40		麒麟810中端cpu
 			--2019年11														          	    	  		
 			荣耀V30 		2019年11月26日		3299		454642			https://u.jd.com/WCYcL4		213	5g	4200	40		麒麟990外挂5g顶级cpu，LCD双挖孔屏，有nfc
-			荣耀V30 PRO 		2019年11月26日		3899		488940			https://u.jd.com/w384Yi		206	5g	4100	40		27W无线充，还有7.5W反向充电，麒麟990顶级cpu，LCD双挖孔屏，主打拍照旗舰，有nfc，降价可买
+			荣耀V30 PRO 		2019年11月26日		3899		488940			https://u.jd.com/w384Yi		206	5g	4100	40		27W无线充电，7.5W反向充电，麒麟990顶级cpu，LCD双挖孔屏，主打拍照旗舰，有nfc，降价可买
 			--2019年10														          	    	  		
 			oppo Reno Ace		2019年10月10日		2999		500802			https://u.jd.com/K8KOkQ		185	4g	4000	65		高通855plus顶级cpu，三星Amoled90Hz屏幕，有nfc，如果暂时不需要5g，降价可买
+			--2019年9
+			Mate30（4g）		2019年9月26日  		3999		467630			https://u.jd.com/j9Iy1o		196	4g	4200	40		27w无线充电，7.5W反向充电，麒麟990 4g顶级cpu，OLED屏幕，莱卡相机，有nfc，ip53防水，线性马达
+			Mate30（5g）		2019年9月26日		4999		485336			https://u.jd.com/T7LdbZ		196	5g	4200	40		27w无线充电，7.5W反向充电，麒麟990集成5g顶级cpu，OLED屏幕，莱卡相机，有nfc，ip53防水，线性马达
+			Mate30 Pro（4g）	2019年9月26日		5799		470643			https://u.jd.com/b2m6h1		198	5g	4500	40		27w无线充电，7.5W反向充电，麒麟990 4g顶级cpu，OLED环幕屏，有nfc，莱卡四摄，ip68防水，线性马达
+			Mate30 Pro（5g）	2019年9月26日		6899		457357			https://u.jd.com/DrF4pm		198	5g	4500	40		27w无线充电，7.5W反向充电，麒麟990集成5g顶级cpu，OLED环幕屏，有nfc，莱卡四摄，ip68防水，线性马达
 			--2019年8														          	    	  		
 			Redmi Note8		2019年8月29日		899		175623			https://u.jd.com/h1ASv6		190	4g	4000	18		高通665低端cpu，1000内可选
 			Redmi Note8 pro		2019年8月29日		1399		289559			https://u.jd.com/8J12i2		199	4g	4500	18		联发科g90t中低端cpu，有nfc，水桶机，建议选购8+128版本，目前售价在1500内
-
 ";
             string[] b = a.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
             List<Mobile> mobileList = new List<Mobile>();
