@@ -16,8 +16,12 @@ namespace shihao316558512.github.io
         {
             string a = @"
 			--2020年8月
-			Redmi K30 至尊纪念版	2020年8月12日		1999		530000			https://u.jd.com/MzrbrJ		213	5g	4500	30		联发科天玑1000+高端cpu，120hz三星E3 Amoled屏幕，线性马达，有nfc
-			小米10 至尊纪念版	2020年8月12日		5299		660000			https://u.jd.com/UYNQDN		221	5g	4500	120		高通865顶级cpu，120倍长焦相机，120hz刷新率屏幕，120w有线充电，50w无线闪充，有nfc
+			iQOO 5			2020年8月17日		3998		631695			https://u.jd.com/ItexzA		197	5g	4500	55		高通865顶级cpu，120hz Super Amoled屏幕，z轴线性马达，有nfc
+			iQOO 5 Pro		2020年8月17日		4998		677256			https://u.jd.com/gxnGuF		198	5g	3890	120		高通865顶级cpu，120hz Super Amoled曲面屏幕，潜望式长焦镜头，x轴线性马达，有nfc
+			三星Note20		2020年8月13日		7399		613800			https://u.jd.com/DNg8XQ		192	5g	4300	25		高通865顶级cpu，60hz顶级屏幕
+			三星Note20 Ultra	2020年8月13日		9199		607206			https://u.jd.com/QU9KMU		208	5g	4500	25		高通865顶级cpu，120hz刷新率顶级屏幕
+			Redmi K30 至尊纪念版	2020年8月12日		1999		507154			https://u.jd.com/MzrbrJ		213	5g	4500	30		联发科天玑1000+高端cpu，120hz三星E3 Amoled屏幕，线性马达，有nfc
+			小米10 至尊纪念版	2020年8月12日		5299		631313			https://u.jd.com/UYNQDN		221	5g	4500	120		高通865顶级cpu，120倍长焦相机，120hz刷新率屏幕，120w有线充电，50w无线闪充，有nfc
 			OPPO K7			2020年8月4日		1999		336098			https://u.jd.com/TDVGI3		180	5g	4249	30		高通765G中端cpu，有nfc
 			vivo S7			2020年8月3日		2798		320000			https://u.jd.com/mSr7CQ		170	5g	4000	30		高通765G中端cpu，7.39mm超薄，前置4400万相机，有nfc
 			realme V5		2020年8月3日		1399		290972			https://u.jd.com/WjBHS0		194	5g	5000	30		联发科天玑720中端cpu，90hz刷新率lcd屏幕
