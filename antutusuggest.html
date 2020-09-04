@@ -43,9 +43,9 @@
     </style>
     <script>
         $(function () {
-            var array500 = ["Redmi 9", "Redmi 9A"];
+            var array500 = ["Redmi 9", "Redmi 9A", "Realme V3"];
             var array1000 = ["荣耀Play4T Pro", "Redmi 10X（5g版）", "荣耀x10", "Redmi Note8 pro", "荣耀30S", "Redmi K30i", "Redmi K30 至尊纪念版"];
-            var array2000 = ["Redmi k30pro", "荣耀V30 PRO", "Mate30（4g）", "Redmi K30 至尊纪念版"];
+            var array2000 = ["Redmi k30pro", "荣耀V30 PRO", "Mate30（4g）", "Redmi K30 至尊纪念版", "Realme X7 Pro"];
             var array3000 = ["小米10", "一加8", "Mate30（5g）", "Mate30 Pro（4g）"];
             var array4000 = ["小米10pro", "一加8pro", "OPPO Find X2 Pro", "Mate30 Pro（5g）", "小米10 至尊纪念版"];
             var $template = $(".list-group-item").clone();
@@ -70,7 +70,7 @@
                     html = html.replace("$battery$", item.battery);
                     html = html.replace("$charge$", item.charge);
                     html = html.replace("$content$", item.content);
-                    html = html.replace("$percent$", "style='width:" + item.score / 643687 * 100 + "%;'");
+                    html = html.replace("$percent$", "style='width:" + item.score / 700000 * 100 + "%;'");
                     result500 += html;
                 }
                 if (array1000.indexOf(item.name) > -1) {
@@ -86,7 +86,7 @@
                     html = html.replace("$battery$", item.battery);
                     html = html.replace("$charge$", item.charge);
                     html = html.replace("$content$", item.content);
-                    html = html.replace("$percent$", "style='width:" + item.score / 643687 * 100 + "%;'");
+                    html = html.replace("$percent$", "style='width:" + item.score / 700000 * 100 + "%;'");
                     result1000 += html;
                 }
                 if (array2000.indexOf(item.name) > -1) {
@@ -102,7 +102,7 @@
                     html = html.replace("$battery$", item.battery);
                     html = html.replace("$charge$", item.charge);
                     html = html.replace("$content$", item.content);
-                    html = html.replace("$percent$", "style='width:" + item.score / 643687 * 100 + "%;'");
+                    html = html.replace("$percent$", "style='width:" + item.score / 700000 * 100 + "%;'");
                     result2000 += html;
                 }
                 if (array3000.indexOf(item.name) > -1) {
@@ -118,7 +118,7 @@
                     html = html.replace("$battery$", item.battery);
                     html = html.replace("$charge$", item.charge);
                     html = html.replace("$content$", item.content);
-                    html = html.replace("$percent$", "style='width:" + item.score / 643687 * 100 + "%;'");
+                    html = html.replace("$percent$", "style='width:" + item.score / 700000 * 100 + "%;'");
                     result3000 += html;
                 }
                 if (array4000.indexOf(item.name) > -1) {
@@ -134,7 +134,7 @@
                     html = html.replace("$battery$", item.battery);
                     html = html.replace("$charge$", item.charge);
                     html = html.replace("$content$", item.content);
-                    html = html.replace("$percent$", "style='width:" + item.score / 643687 * 100 + "%;'");
+                    html = html.replace("$percent$", "style='width:" + item.score / 700000 * 100 + "%;'");
                     result4000 += html;
                 }
             });

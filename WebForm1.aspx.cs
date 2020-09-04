@@ -15,7 +15,14 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
-			--2020年8月
+		--2020年9月
+			华为畅享 20		2020年9月2日		1649		280000			无				188	5g	5000	10		联发科天玑720中低端cpu
+			华为畅享 20 Plus	2020年9月3日		2249		280000			无				197	5g	4200	40		联发科天玑720中低端cpu
+			Realme X7		2020年9月1日		1799		340000			https://u.jd.com/NFGa6B		175	5g	4300	65		联发科天玑800U中端cpu
+			Realme X7 Pro		2020年9月1日		2199		535879			https://u.jd.com/9iofBW		184	5g	4500	65		联发科天玑1000+高端cpu，120hz E3Amoled屏幕，z轴线性马达，双扬声器，有nfc 
+			Realme V3		2020年9月1日		999		300000			https://u.jd.com/i7gyUc		190	5g	5000	18		联发科天玑720中低端cpu
+			中兴AXON 20		2020年9月1日		2198		329325			https://u.jd.com/TyxQai		198	5g	4220	30		高通765g中端cpu，首发量产屏下摄像头
+			--2020年8月 
 			iQOO 5			2020年8月17日		3998		631695			https://u.jd.com/ItexzA		197	5g	4500	55		高通865顶级cpu，120hz Super Amoled屏幕，z轴线性马达，有nfc
 			iQOO 5 Pro		2020年8月17日		4998		677256			https://u.jd.com/gxnGuF		198	5g	3890	120		高通865顶级cpu，120hz Super Amoled曲面屏幕，潜望式长焦镜头，x轴线性马达，有nfc
 			三星Note20		2020年8月13日		7399		613800			https://u.jd.com/DNg8XQ		192	5g	4300	25		高通865顶级cpu，60hz顶级屏幕
@@ -39,6 +46,7 @@ namespace shihao316558512.github.io
 			荣耀X10 Max		2020年7月3日		1899		314879			https://u.jd.com/6ALJH7		227	5g	5000	22.5		联发科天玑800中端cpu，7.09英寸屏幕，双扬声器，nfc
 			--2020年6月															
 			Redmi 9			2020年6月24日		799		200000			https://u.jd.com/oZUdHt		198	4g	5020	18		联发科g80中低端cpu，入门机
+			华为畅享 20 Pro		2020年6月19日		1999		309890			https://u.jd.com/YiGrrH		192	5g	4000	22.5		联发科天玑800中端cpu，90hz lcd屏幕
 			oppo Reno4		2020年6月5日		2999		340000			https://u.jd.com/Kqk0bq		183	5g	4020	65		高通765G中端cpu，2.5D打孔曲面屏，有nfc，主打视频拍摄
 			oppo Reno4 Pro		2020年6月5日		3799		340000			https://u.jd.com/IpO6rG		172	5g	4000	65		高通765G中端cpu，90Hz刷新率3D曲面屏，有nfc
 			荣耀Play4		2020年6月3日		1799		315000			https://u.jd.com/GnmRC3		213	5g	4300	22.5		联发科天玑800中端cpu，Lcd单挖孔屏
@@ -128,6 +136,7 @@ namespace shihao316558512.github.io
 			--2019年8														          	    	  		
 			Redmi Note8		2019年8月29日		899		175623			https://u.jd.com/h1ASv6		190	4g	4000	18		高通665低端cpu，1000内可选
 			Redmi Note8 pro		2019年8月29日		1399		289559			https://u.jd.com/oZUdHt		199	4g	4500	18		联发科g90t中低端cpu，有nfc，水桶机，建议选购8+128版本，目前售价在1500内
+
 ";
             string[] b = a.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
             List<Mobile> mobileList = new List<Mobile>();
