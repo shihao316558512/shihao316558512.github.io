@@ -15,9 +15,28 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
-		--2020年9月
-			华为畅享 20		2020年9月2日		1649		280000			无				188	5g	5000	10		联发科天玑720中低端cpu
-			华为畅享 20 Plus	2020年9月3日		2249		280000			无				197	5g	4200	40		联发科天玑720中低端cpu
+--2020年11月
+			vivo s7e		2020年11月4日		2398		300484			https://u.jd.com/tGWUz9z	171	5g	4100	33		联发科天玑720中低端cpu
+			OPPO K7x		2020年11月4日		1399		263759			https://u.jd.com/tIWlNAE	194	5g	5000	30		联发科天玑720中低端cpu，90hz屏幕
+			--2020年10月
+			华为Mate40		2020年10月30日		4999		693605			https://u.jd.com/thWYwb2	188	5g	4200	40		麒麟9000E顶级cpu
+			华为Mate40 Pro		2020年10月30日		6499		685339			https://u.jd.com/thWYwb2	212	5g	4400	66		麒麟9000顶级cpu，50w无线充电
+			华为Mate40 Pro Plus	2020年10月30日		8999 		685339			https://u.jd.com/tNW6cfB	230	5g	4400	66		麒麟9000顶级cpu，50w无线充电
+			华为Mate40 RS 保时捷	2020年10月30日		11999		685339			https://u.jd.com/tHToJbg	234	5g	4400	66		麒麟9000顶级cpu，50w无线充电 
+			Redmi K30s 至尊纪念版	2020年10月27日		2299		673723			https://u.jd.com/tjWQyot	216	5g	5000	30		高通骁龙865顶级cpu，144hzLCD屏幕，nfc，红外
+			坚果R2			2020年10月21日		4499		593531			https://u.jd.com/tCWB988	216	5g	4510	55		高通骁龙865顶级cpu，90hz曲面屏
+			一加8T			2020年10月15日		3399		591688			https://u.jd.com/toWwUoN	188	5g	4500	65		高通骁龙865顶级cpu，120hz OLED屏幕，nfc
+			iphone12 mini		2020年10月14日		5499		573719			https://u.jd.com/tjWGzxx	133	5g	2227	20		A14顶级cpu，5.4寸屏幕
+			iphone12		2020年10月14日		6299		573719			https://u.jd.com/tfTxLX5	162	5g	2775	20		A14顶级cpu，最推荐购买的一款
+			iphone12 pro		2020年10月14日		8499		574155			https://u.jd.com/tJT9STy	187	5g	2815	20		A14顶级cpu，拍照更好
+			iphone12 pro Max	2020年10月14日		9299		574155			https://u.jd.com/tAWLMHY	226	5g	3687	20		A14顶级cpu，拍照续航更好
+			realme Q2i		2020年10月14日		998		300484			https://u.jd.com/tPW1hLl	190	5g	5000	18		联发科天玑720中低端cpu，长续航
+			realme Q2		2020年10月14日		1299		330567			https://u.jd.com/trWbOek	194	5g	5000	30		联发科天玑800u中端cpu，90hz高刷新率屏幕
+			realme Q2 Pro		2020年10月14日		1799		340030			https://u.jd.com/tMWYtRc	175	5g	4300	65		联发科天玑800u中端cpu，65w快充
+			--2020年9月 
+			oppo reno4se		2020年9月21日		2499		280000			https://u.jd.com/tuWWvXc	169	5g	4300	65		联发科天玑720中低端cpu
+			华为畅享 20		2020年9月2日		1649		280000			https://u.jd.com/tiTo1yZ	188	5g	5000	10		联发科天玑720中低端cpu
+			华为畅享 20 Plus	2020年9月3日		2249		280000			https://u.jd.com/tRTkIOu	197	5g	4200	40		联发科天玑720中低端cpu
 			Realme X7		2020年9月1日		1799		340000			https://u.jd.com/NFGa6B		175	5g	4300	65		联发科天玑800U中端cpu
 			Realme X7 Pro		2020年9月1日		2199		535879			https://u.jd.com/9iofBW		184	5g	4500	65		联发科天玑1000+高端cpu，120hz E3Amoled屏幕，z轴线性马达，双扬声器，有nfc 
 			Realme V3		2020年9月1日		999		300000			https://u.jd.com/i7gyUc		190	5g	5000	18		联发科天玑720中低端cpu
@@ -26,12 +45,13 @@ namespace shihao316558512.github.io
 			iQOO 5			2020年8月17日		3998		631695			https://u.jd.com/ItexzA		197	5g	4500	55		高通865顶级cpu，120hz Super Amoled屏幕，z轴线性马达，有nfc
 			iQOO 5 Pro		2020年8月17日		4998		677256			https://u.jd.com/gxnGuF		198	5g	3890	120		高通865顶级cpu，120hz Super Amoled曲面屏幕，潜望式长焦镜头，x轴线性马达，有nfc
 			三星Note20		2020年8月13日		7399		613800			https://u.jd.com/DNg8XQ		192	5g	4300	25		高通865顶级cpu，60hz顶级屏幕
+			三星Note20+		2020年8月13日		7399		613800			https://u.jd.com/DNg8XQ		192	5g	4300	25		高通865顶级cpu，60hz顶级屏幕
 			三星Note20 Ultra	2020年8月13日		9199		607206			https://u.jd.com/QU9KMU		208	5g	4500	25		高通865顶级cpu，120hz刷新率顶级屏幕
 			Redmi K30 至尊纪念版	2020年8月12日		1999		507154			https://u.jd.com/MzrbrJ		213	5g	4500	30		联发科天玑1000+高端cpu，120hz三星E3 Amoled屏幕，线性马达，有nfc
 			小米10 至尊纪念版	2020年8月12日		5299		631313			https://u.jd.com/UYNQDN		221	5g	4500	120		高通865顶级cpu，120倍长焦相机，120hz刷新率屏幕，120w有线充电，50w无线闪充，有nfc
 			OPPO K7			2020年8月4日		1999		336098			https://u.jd.com/TDVGI3		180	5g	4249	30		高通765G中端cpu，有nfc
 			vivo S7			2020年8月3日		2798		320000			https://u.jd.com/mSr7CQ		170	5g	4000	30		高通765G中端cpu，7.39mm超薄，前置4400万相机，有nfc
-			realme V5		2020年8月3日		1399		290972			https://u.jd.com/WjBHS0		194	5g	5000	30		联发科天玑720中端cpu，90hz刷新率lcd屏幕
+			Realme V5		2020年8月3日		1399		290972			https://u.jd.com/WjBHS0		194	5g	5000	30		联发科天玑720中端cpu，90hz刷新率lcd屏幕
 			--2020年7月
 			黑鲨3S			2020年7月31日		3999		634453			https://u.jd.com/zxtxzL		222	5g	4720	65		高通865顶级cpu，90hz Amoled屏幕
 			红魔5S			2020年7月29日		3799		607927			https://u.jd.com/RNH8DN		218	5g	4500	55		高通865顶级cpu，144hz Amoled屏幕
@@ -93,6 +113,7 @@ namespace shihao316558512.github.io
 			vivo S6			2020年3月31日		2698		330696			https://u.jd.com/HyKJTJ		181	5g	4500	18		三星Exynos980中端cpu，三星AMOLED屏幕
 			荣耀30S			2020年3月30日		2399		364077			https://u.jd.com/6CIiPl		190	5g	4000	40		麒麟820中高端cpu，lcd屏幕，比较推荐的一款机型
 			Redmi k30pro		2020年3月24日		2999 		595555			https://u.jd.com/oE4VDK		218	5g	4700	33		高通865顶级cpu，三星E3 AMOLED屏幕60hz刷新率，z轴线性马达，nfc
+			Redmi k30pro 变焦版	2020年3月24日		3799		595555			https://u.jd.com/oE4VDK		218	5g	4700	33		高通865顶级cpu，三星E3 AMOLED屏幕60hz刷新率，z轴线性马达，nfc，dxomark上榜
 			中兴AXON 11		2020年3月23日		2698		330638			https://u.jd.com/7CRtca		168	5g	4000	18		高通765g中端cpu，AMOLED屏幕，nfc
 			realme X50 Pro		2020年3月12日		3599		587386			https://u.jd.com/C7AwtA		205	5g	4200	65		高通865顶级cpu，三星E3 superAMOLED 90hz刷新率屏幕，Z轴线性马达
 			nubia 红魔5G		2020年3月12日		3799		575016			https://u.jd.com/e0FegR		218	5g	4500	55		高通865顶级cpu，144HzAMOLED屏幕，风冷散热，z轴线性马达
@@ -125,7 +146,7 @@ namespace shihao316558512.github.io
 			nova6 SE		2019年12月5日		2199		321126			https://u.jd.com/1FpD6F		183	4g	4200	40		麒麟810中端cpu
 			--2019年11														          	    	  		
 			荣耀V30 		2019年11月26日		3299		454642			https://u.jd.com/WCYcL4		213	5g	4200	40		麒麟990外挂5g顶级cpu，LCD双挖孔屏，有nfc
-			荣耀V30 PRO 		2019年11月26日		3899		488940			https://u.jd.com/w384Yi		206	5g	4100	40		27W无线充电，7.5W反向充电，麒麟990顶级cpu，LCD双挖孔屏，主打拍照旗舰，有nfc，降价可买
+			荣耀V30 PRO 		2019年11月26日		3899		488940			https://u.jd.com/w384Yi		206	5g	4100	40		27W无线充电，7.5W反向充电，麒麟990顶级cpu，LCD双挖孔屏，主打拍照旗舰，有nfc，降价可买，dxomark上榜
 			--2019年10														          	    	  		
 			oppo Reno Ace		2019年10月10日		2999		500802			https://u.jd.com/K8KOkQ		185	4g	4000	65		高通855plus顶级cpu，三星Amoled90Hz屏幕，有nfc，如果暂时不需要5g，降价可买
 			--2019年9
