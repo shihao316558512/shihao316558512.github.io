@@ -15,11 +15,30 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
---2020年11月
+  --2021年1月
+			三星S21			2021年1月18日		4999		700000			https://u.jd.com/tbLh5xg	169	5g	4000	25		高通骁龙888顶级处理器，120hzAmoled屏幕，15w无线充电
+			三星S21+		2021年1月18日		7199		700000			https://u.jd.com/tVLxKX2	200	5g	4800	25		高通骁龙888顶级处理器，120hzAmoled屏幕，15w无线充电
+			三星S21 Ultra		2021年1月18日		9699		700000			https://u.jd.com/tZL7egJ	227	5g	5100	25		高通骁龙888顶级处理器，120hzAmoled屏幕，15w无线充电，S Pen
+			iqoo7			2021年1月11日		3798		752939			https://u.jd.com/tgTVtCt	209	5g	4000	120		高通骁龙888顶级处理器，120hzAmoled屏幕，120w快充
+			realmeV15		2021年1月7日		1399		341298			https://u.jd.com/t6Rf8sP	176	5g	4310	50		联发科天玑800U中端处理器，国潮色
+			--2020年12月														
+			vivo X60		2020年12月29日		3498		693600			https://u.jd.com/tKQxePF	175	5g	4300	33		三星Exynos 1080，120hz三星AMOLED直屏，
+			vivo X60 Pro		2020年12月29日		4498		693600			https://u.jd.com/taqtyfo	178	5g	4200	33		三星Exynos 1080，120Hz三星AMOLED曲面屏
+			小米11			2020年12月28日		3999		708425			https://u.jd.com/t1QxTXv	196	5g	4600	55		高通骁龙888顶级cpu，2k 120hz Amoled屏幕，50w无线快充，10w反向充电，x轴线性马达，nfc，红外
+			oppo Reno5 pro+		2020年12月24日		3999		685976			https://u.jd.com/tFQRPwI	184	5g	4500	65		高通骁龙865顶级cpu，90Hz屏幕
+			华为 nova8		2020年12月23日		3299		413621			https://u.jd.com/t4T9tF7	169	5g	3800	66		麒麟985中高端cpu，90Hz OLED
+			华为 nova8 Pro		2020年12月23日		3999		413621			https://u.jd.com/tsTXtQz	184	5g	4000	66		麒麟985中高端cpu，120Hz OLED
+			oppo Reno5 		2020年12月10日		2699		350000			https://u.jd.com/tFQm6LY	172	5g	4300	65		高通骁龙765G中端cpu，90Hz屏幕
+			oppo Reno5 pro		2020年12月10日		3399		516000			https://u.jd.com/trQkM88	173	5g	4350	65		高通天玑1000+高端cpu，90Hz屏幕，z轴线性马达
+			--2020年11月
+			红米note9 4G		2020年11月16日		999		190000			https://u.jd.com/toQHMke	198	5g	6000	18		高通骁龙662低端cpu，大电池，长续航
+			红米note9 5G		2020年11月16日		1299		345370			https://u.jd.com/taQFUFc	199	5g	5000	18		联发科天玑800U中端cpu，线性马达
+			红米note9 Pro		2020年11月16日 		1599		351232			https://u.jd.com/tcQX67a	190	5g	4820	33		高通骁龙750G中端cpu，120hz LCD屏幕，线性马达，nfc
+			华为 nova8 se		2020年11月5日		2699		300000			https://u.jd.com/tkQXZDT	178	5g	3800	66		联发科天玑720中低端cpu/高配天机800U中端cpu，oled屏幕
 			vivo s7e		2020年11月4日		2398		300484			https://u.jd.com/tGWUz9z	171	5g	4100	33		联发科天玑720中低端cpu
 			OPPO K7x		2020年11月4日		1399		263759			https://u.jd.com/tIWlNAE	194	5g	5000	30		联发科天玑720中低端cpu，90hz屏幕
 			--2020年10月
-			华为Mate40		2020年10月30日		4999		693605			https://u.jd.com/thWYwb2	188	5g	4200	40		麒麟9000E顶级cpu
+			华为Mate40		2020年10月30日		4999		693605			https://u.jd.com/ty7KJyK	188	5g	4200	40		麒麟9000E顶级cpu
 			华为Mate40 Pro		2020年10月30日		6499		685339			https://u.jd.com/thWYwb2	212	5g	4400	66		麒麟9000顶级cpu，50w无线充电
 			华为Mate40 Pro Plus	2020年10月30日		8999 		685339			https://u.jd.com/tNW6cfB	230	5g	4400	66		麒麟9000顶级cpu，50w无线充电
 			华为Mate40 RS 保时捷	2020年10月30日		11999		685339			https://u.jd.com/tHToJbg	234	5g	4400	66		麒麟9000顶级cpu，50w无线充电 
