@@ -15,7 +15,7 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
-  --2021年1月
+ --2021年1月
 			三星S21			2021年1月18日		4999		700000			https://u.jd.com/tbLh5xg	169	5g	4000	25		高通骁龙888顶级处理器，120hzAmoled屏幕，15w无线充电
 			三星S21+		2021年1月18日		7199		700000			https://u.jd.com/tVLxKX2	200	5g	4800	25		高通骁龙888顶级处理器，120hzAmoled屏幕，15w无线充电
 			三星S21 Ultra		2021年1月18日		9699		700000			https://u.jd.com/tZL7egJ	227	5g	5100	25		高通骁龙888顶级处理器，120hzAmoled屏幕，15w无线充电，S Pen
@@ -38,7 +38,8 @@ namespace shihao316558512.github.io
 			vivo s7e		2020年11月4日		2398		300484			https://u.jd.com/tGWUz9z	171	5g	4100	33		联发科天玑720中低端cpu
 			OPPO K7x		2020年11月4日		1399		263759			https://u.jd.com/tIWlNAE	194	5g	5000	30		联发科天玑720中低端cpu，90hz屏幕
 			--2020年10月
-			华为Mate40		2020年10月30日		4999		693605			https://u.jd.com/ty7KJyK	188	5g	4200	40		麒麟9000E顶级cpu
+			华为Mate30E Pro		2020年10月30日		5299		480000			https://u.jd.com/tjdya7F	198	5g	4500	40		麒麟990E顶级cpu，27w无线充电
+			华为Mate40		2020年10月30日		4999		693605			https://u.jd.com/ty7KJyK	188	5g	4200	40		麒麟9000E顶级cpu，40w无线充电
 			华为Mate40 Pro		2020年10月30日		6499		685339			https://u.jd.com/thWYwb2	212	5g	4400	66		麒麟9000顶级cpu，50w无线充电
 			华为Mate40 Pro Plus	2020年10月30日		8999 		685339			https://u.jd.com/tNW6cfB	230	5g	4400	66		麒麟9000顶级cpu，50w无线充电
 			华为Mate40 RS 保时捷	2020年10月30日		11999		685339			https://u.jd.com/tHToJbg	234	5g	4400	66		麒麟9000顶级cpu，50w无线充电 
@@ -176,6 +177,7 @@ namespace shihao316558512.github.io
 			--2019年8														          	    	  		
 			Redmi Note8		2019年8月29日		899		175623			https://u.jd.com/h1ASv6		190	4g	4000	18		高通665低端cpu，1000内可选
 			Redmi Note8 pro		2019年8月29日		1399		289559			https://u.jd.com/oZUdHt		199	4g	4500	18		联发科g90t中低端cpu，有nfc，水桶机，建议选购8+128版本，目前售价在1500内
+
 
 ";
             string[] b = a.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
