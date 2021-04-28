@@ -44,17 +44,23 @@
     <script>
         $(function () {
             var array500 = ["红米note9 4G", "Redmi 9A"];
-            var array1000 = ["realmeV15", "红米note9 Pro", "realme Q2", "realme Q2 Pro", "红米note9 5G"];
-            var array2000 = ["Redmi K30 至尊纪念版", "Realme X7 Pro"];
-            var array3000 = ["小米11", "iqoo7", "oppo Reno5 pro+", "vivo X60"];
-            var array4000 = ["华为Mate40", "华为Mate40 Pro", "华为Mate40 Pro Plus", "vivo X60 Pro"];
+            var array1000 = ["realme q3", "realme Q2", "realme Q2 Pro", "Redmi 10X（5g版）"];
+            var array1500 = ["realme q3pro", "realme gt neo", "红米k40", "红米k40游戏增强版"];
+            var array2000 = ["iqoo neo 5", "Redmi K30s 至尊纪念版"];
+            var array2500 = ["一加9R", "一加8T", "小米10"];
+            var array3000 = ["小米11", "iqoo7", "oppo Reno5 pro+", "vivo X60", "小米10s", "一加9", "华为Mate40"];
+            var array4000 = ["vivo X60 Pro+", "vivo X60 Pro", "小米11pro", "oppofindx3", "一加9pro", "iphone12", "华为Mate40"];
+            var array5000 = ["小米11Ultra", "华为Mate40 Pro Plus", "华为Mate40 Pro"];
             var $template = $(".list-group-item").clone();
             $(".list-group-item").remove();
             var result500 = "";
             var result1000 = "";
+            var result1500 = "";
             var result2000 = "";
+            var result2500 = "";
             var result3000 = "";
             var result4000 = "";
+            var result5000 = "";
             var title = '<li class="list-group-item"><a><div class="b"><span class="title">$title$</span></div></a></li>';
             data.forEach(function (item) {
                 if (array500.indexOf(item.name) > -1) {
@@ -70,7 +76,7 @@
                     html = html.replace("$battery$", item.battery);
                     html = html.replace("$charge$", item.charge);
                     html = html.replace("$content$", item.content);
-                    html = html.replace("$percent$", "style='width:" + item.score / 743831 * 100 + "%;'");
+                    html = html.replace("$percent$", "style='width:" + item.score / 1000000 * 100 + "%;'");
                     result500 += html;
                 }
                 if (array1000.indexOf(item.name) > -1) {
@@ -86,8 +92,24 @@
                     html = html.replace("$battery$", item.battery);
                     html = html.replace("$charge$", item.charge);
                     html = html.replace("$content$", item.content);
-                    html = html.replace("$percent$", "style='width:" + item.score / 743831 * 100 + "%;'");
+                    html = html.replace("$percent$", "style='width:" + item.score / 1000000 * 100 + "%;'");
                     result1000 += html;
+                }
+                if (array1500.indexOf(item.name) > -1) {
+                    var $temp = $template.clone();
+                    var html = $temp.prop("outerHTML");
+                    html = html.replace("$name$", item.name);
+                    html = html.replace("$time$", item.time);
+                    html = html.replace("$score$", item.score);
+                    html = html.replace("$price$", item.price);
+                    html = html.replace("$href$", item.href);
+                    html = html.replace("$weight$", item.weight);
+                    html = html.replace("$generation$", item.generation);
+                    html = html.replace("$battery$", item.battery);
+                    html = html.replace("$charge$", item.charge);
+                    html = html.replace("$content$", item.content);
+                    html = html.replace("$percent$", "style='width:" + item.score / 1000000 * 100 + "%;'");
+                    result1500 += html;
                 }
                 if (array2000.indexOf(item.name) > -1) {
                     var $temp = $template.clone();
@@ -102,8 +124,24 @@
                     html = html.replace("$battery$", item.battery);
                     html = html.replace("$charge$", item.charge);
                     html = html.replace("$content$", item.content);
-                    html = html.replace("$percent$", "style='width:" + item.score / 743831 * 100 + "%;'");
+                    html = html.replace("$percent$", "style='width:" + item.score / 1000000 * 100 + "%;'");
                     result2000 += html;
+                }
+                if (array2500.indexOf(item.name) > -1) {
+                    var $temp = $template.clone();
+                    var html = $temp.prop("outerHTML");
+                    html = html.replace("$name$", item.name);
+                    html = html.replace("$time$", item.time);
+                    html = html.replace("$score$", item.score);
+                    html = html.replace("$price$", item.price);
+                    html = html.replace("$href$", item.href);
+                    html = html.replace("$weight$", item.weight);
+                    html = html.replace("$generation$", item.generation);
+                    html = html.replace("$battery$", item.battery);
+                    html = html.replace("$charge$", item.charge);
+                    html = html.replace("$content$", item.content);
+                    html = html.replace("$percent$", "style='width:" + item.score / 1000000 * 100 + "%;'");
+                    result2500 += html;
                 }
                 if (array3000.indexOf(item.name) > -1) {
                     var $temp = $template.clone();
@@ -118,7 +156,7 @@
                     html = html.replace("$battery$", item.battery);
                     html = html.replace("$charge$", item.charge);
                     html = html.replace("$content$", item.content);
-                    html = html.replace("$percent$", "style='width:" + item.score / 743831 * 100 + "%;'");
+                    html = html.replace("$percent$", "style='width:" + item.score / 1000000 * 100 + "%;'");
                     result3000 += html;
                 }
                 if (array4000.indexOf(item.name) > -1) {
@@ -134,16 +172,35 @@
                     html = html.replace("$battery$", item.battery);
                     html = html.replace("$charge$", item.charge);
                     html = html.replace("$content$", item.content);
-                    html = html.replace("$percent$", "style='width:" + item.score / 743831 * 100 + "%;'");
+                    html = html.replace("$percent$", "style='width:" + item.score / 1000000 * 100 + "%;'");
                     result4000 += html;
+                }
+                if (array5000.indexOf(item.name) > -1) {
+                    var $temp = $template.clone();
+                    var html = $temp.prop("outerHTML");
+                    html = html.replace("$name$", item.name);
+                    html = html.replace("$time$", item.time);
+                    html = html.replace("$score$", item.score);
+                    html = html.replace("$price$", item.price);
+                    html = html.replace("$href$", item.href);
+                    html = html.replace("$weight$", item.weight);
+                    html = html.replace("$generation$", item.generation);
+                    html = html.replace("$battery$", item.battery);
+                    html = html.replace("$charge$", item.charge);
+                    html = html.replace("$content$", item.content);
+                    html = html.replace("$percent$", "style='width:" + item.score / 1000000 * 100 + "%;'");
+                    result5000 += html;
                 }
             });
             result500 = title.replace("$title$", "1000内") + result500;
-            result1000 = title.replace("$title$", "1000-2000") + result1000;
-            result2000 = title.replace("$title$", "2000-3000") + result2000;
+            result1000 = title.replace("$title$", "1000-1500") + result1000;
+            result1500 = title.replace("$title$", "1500-2000") + result1500;
+            result2000 = title.replace("$title$", "2000-2500") + result2000;
+            result2500 = title.replace("$title$", "2500-3000") + result2500;
             result3000 = title.replace("$title$", "3000-4000") + result3000;
-            result4000 = title.replace("$title$", ">4000") + result4000;
-            $(".list-group").append(result500 + result1000 + result2000 + result3000 + result4000);
+            result4000 = title.replace("$title$", "4000-5000") + result4000;
+            result5000 = title.replace("$title$", ">5000") + result5000;
+            $(".list-group").append(result500 + result1000 + result1500 + result2000 + result2500 + result3000 + result4000 + result5000);
         })
     </script>
     <script>
