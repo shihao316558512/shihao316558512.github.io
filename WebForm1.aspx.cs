@@ -15,7 +15,21 @@ namespace shihao316558512.github.io
         protected void Page_Load(object sender, EventArgs e)
         {
             string a = @"
---2021年4月
+
+--2021年5月
+			opporeno6		2021年5月28日		2799		480000			https://u.jd.com/GowyIDK	182	5g	4300	65		天玑900
+			opporeno6pro		2021年5月28日		3499		694593			https://u.jd.com/GAwagXE	177	5g	4500	65		天玑1200
+			opporeno6pro+		2021年5月28日		3999		710700			https://u.jd.com/Gew8tS4	188	5g	4500	65		骁龙870
+			腾讯红魔游戏手机6R	2021年5月28日		2999		845210			https://u.jd.com/GCw8R9q	186	5g	4200	55		骁龙888
+			Redmi Note 10		2021年5月26日		1099		318468			https://u.jd.com/GJwGTZY	190	5g	5000	18		天玑700
+			Redmi Note 10 Pro	2021年5月26日		1599		682473			https://u.jd.com/GJw2qoF	193	5g	5000	67		天玑1100,LCD
+			realmeQ3pro狂欢版	2021年5月25日		1599		458042 			https://u.jd.com/G3wSW2T	174	5g	4500	50		高通骁龙768g
+			realmeGtneo闪速版	2021年5月25日		2299		714156			https://u.jd.com/G8wYQXN	179	5g	4500	65		天玑1200，素皮材质
+			iQOO Neo5活力版		2021年5月24日		2299		639142			https://u.jd.com/Gbdylyh	198	5g	4500	45		骁龙870，LCD
+			努比亚Z30 Pro		2021年5月20日		4999		803840			https://u.jd.com/zUKahFp	198	5g	4200	120		高通骁龙888顶级处理器，144Hz 刷新率的柔性 OLED 屏，nfc
+			索尼Xperia 1 III	2021年5月20日		8499		700000			https://u.jd.com/zAIsoiX	186	5g	4500	30		高通骁龙888顶级处理器，4k oled
+			oppok9			2021年5月6日		1999		456429			https://u.jd.com/zcI1iXB	172	5g	4300	65		高通768g中端处理器，
+			--2021年4月
 			红米k40游戏增强版	2021年4月28日		1999		724495			https://u.jd.com/QIRPGuT	205	5g	5065	67		联发科天玑1200高端处理器，120HzOLED柔性直屏，NFC，红外，侧面指纹，X轴线性马达
 			realme q3i		2021年4月22日		1099		302362			https://u.jd.com/QRRrYN9	185	5g	5000	18		联发科天玑700低端处理器
 			realme q3		2021年4月22日		1299		407193			https://u.jd.com/QuRTO0c	189	5g	5000	30		高通骁龙750G中端处理器，120hzLCD屏幕
@@ -214,8 +228,6 @@ namespace shihao316558512.github.io
 			--2019年8														          	    	  		
 			Redmi Note8		2019年8月29日		899		175623			https://u.jd.com/h1ASv6		190	4g	4000	18		高通665低端cpu，1000内可选
 			Redmi Note8 pro		2019年8月29日		1399		289559			https://u.jd.com/oZUdHt		199	4g	4500	18		联发科g90t中低端cpu，有nfc，水桶机，建议选购8+128版本，目前售价在1500内
-
-
 
 ";
             string[] b = a.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
