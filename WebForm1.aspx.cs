@@ -16,50 +16,61 @@ namespace shihao316558512.github.io
         {
             string a = @"
 
---2021年5月
-			opporeno6		2021年5月28日		2799		480000			https://u.jd.com/GowyIDK	182	5g	4300	65		天玑900
-			opporeno6pro		2021年5月28日		3499		694593			https://u.jd.com/GAwagXE	177	5g	4500	65		天玑1200
-			opporeno6pro+		2021年5月28日		3999		710700			https://u.jd.com/Gew8tS4	188	5g	4500	65		骁龙870
-			腾讯红魔游戏手机6R	2021年5月28日		2999		845210			https://u.jd.com/GCw8R9q	186	5g	4200	55		骁龙888
-			Redmi Note 10		2021年5月26日		1099		318468			https://u.jd.com/GJwGTZY	190	5g	5000	18		天玑700
-			Redmi Note 10 Pro	2021年5月26日		1599		682473			https://u.jd.com/GJw2qoF	193	5g	5000	67		天玑1100,LCD
-			realmeQ3pro狂欢版	2021年5月25日		1599		458042 			https://u.jd.com/G3wSW2T	174	5g	4500	50		高通骁龙768g
-			realmeGtneo闪速版	2021年5月25日		2299		714156			https://u.jd.com/G8wYQXN	179	5g	4500	65		天玑1200，素皮材质
-			iQOO Neo5活力版		2021年5月24日		2299		639142			https://u.jd.com/Gbdylyh	198	5g	4500	45		骁龙870，LCD
+--2021年7月
+			华为p50			2021年7月29日		4488		800000			https://u.jd.com/OdhrSPo	181	4g	4100	66		高通骁龙888顶级处理器，仅支持4g网络，120hz oled屏幕，拍照王者
+			华为p50pro		2021年7月29日		5988		760000			https://u.jd.com/OdhrSPo	195	4g	4360	66		麒麟9000/高通骁龙888顶级处理器，仅支持4g网络，120hz oled屏幕，拍照王者
+			realme GT 大师版	2021年7月21日		2399		538168			https://u.jd.com/OLhTVTA	174	5g	4300	65		高通骁龙778G中高端处理器，120hz AMOLED屏幕，行李箱素皮设计，拍照滤镜好评
+			realme GT 大师探索版	2021年7月21日		2899		730000			https://u.jd.com/OChbu0e	183	5g	4500	65		高通骁龙870高端处理器，120hz AMOLED屏幕，更强的摄像头
+			vivo s10		2021年7月15日		2999		670000			https://u.jd.com/OIhgeOD	173	5g	4050	44		联发科天玑1100高端处理器，90hz oled屏幕，
+			viso s10 pro		2021年7月15日		3399		670000			https://u.jd.com/OMhYXmg	173	5g	4050	44		联发科天玑1100高端处理器，90hz oled屏幕，主摄更强，支持nfc 
+			--2021年6月
+			荣耀50SE		2021年6月17日		2399		480000			https://u.jd.com/GRsu9TG	191	5g	4000	66		联发科天玑900中端处理器，打孔120hz lcd屏幕
+			荣耀50			2021年6月17日		2699		520000			https://u.jd.com/GlqjzwI	175	5g	4300	66		高通骁龙778g中高端处理器，oled120hz屏幕
+			荣耀50Pro		2021年6月17日		3699		520000			https://u.jd.com/GoqAy8P	187	5g	4000	100		高通骁龙778g中高端处理器，oled120hz屏幕，双摄自拍，更快的充电
+			--2021年5月
+			opporeno6		2021年5月28日		2799		480000			https://u.jd.com/GowyIDK	182	5g	4300	65		联发科天玑900中端处理器，90hz AMOLED屏幕
+			opporeno6pro		2021年5月28日		3499		694593			https://u.jd.com/GAwagXE	177	5g	4500	65		联发科天玑1200高端处理器，90hz AMOLED屏幕
+			opporeno6pro+		2021年5月28日		3999		710700			https://u.jd.com/Gew8tS4	188	5g	4500	65		高通骁龙870高端处理器，90hz AMOLED屏幕，更强的主摄
+			腾讯红魔游戏手机6R	2021年5月28日		2999		845210			https://u.jd.com/GCw8R9q	186	5g	4200	55		高通骁龙888顶级处理器，144hz AMOLED屏幕
+			Redmi Note 10		2021年5月26日		1099		318468			https://u.jd.com/GJwGTZY	190	5g	5000	18		联发科天玑700地段处理器，90hz LCD屏幕
+			Redmi Note 10 Pro	2021年5月26日		1599		682473			https://u.jd.com/GJw2qoF	193	5g	5000	67		联发科天玑1100高端处理器，120hz LCD屏幕
+			realmeQ3pro狂欢版	2021年5月25日		1599		458042 			https://u.jd.com/G3wSW2T	174	5g	4500	50		高通骁龙768g中端处理器，120Hz SuperAMOLED屏幕
+			realmeGtneo闪速版	2021年5月25日		2299		714156			https://u.jd.com/G8wYQXN	179	5g	4500	65		联发科天玑1200高端处理器，120Hz oled三星电竞屏，素皮材质
+			iQOO Neo5活力版		2021年5月24日		2299		639142			https://u.jd.com/Gbdylyh	198	5g	4500	45		高通骁龙870高端处理器，144hz LCD打孔屏
 			努比亚Z30 Pro		2021年5月20日		4999		803840			https://u.jd.com/zUKahFp	198	5g	4200	120		高通骁龙888顶级处理器，144Hz 刷新率的柔性 OLED 屏，nfc
 			索尼Xperia 1 III	2021年5月20日		8499		700000			https://u.jd.com/zAIsoiX	186	5g	4500	30		高通骁龙888顶级处理器，4k oled
-			oppok9			2021年5月6日		1999		456429			https://u.jd.com/zcI1iXB	172	5g	4300	65		高通768g中端处理器，
+			oppok9			2021年5月6日		1999		456429			https://u.jd.com/zcI1iXB	172	5g	4300	65		高通768g中端处理器，90hz oled屏幕
 			--2021年4月
 			红米k40游戏增强版	2021年4月28日		1999		724495			https://u.jd.com/QIRPGuT	205	5g	5065	67		联发科天玑1200高端处理器，120HzOLED柔性直屏，NFC，红外，侧面指纹，X轴线性马达
-			realme q3i		2021年4月22日		1099		302362			https://u.jd.com/QRRrYN9	185	5g	5000	18		联发科天玑700低端处理器
+			realme q3i		2021年4月22日		1099		302362			https://u.jd.com/QRRrYN9	185	5g	5000	18		联发科天玑700低端处理器，90hz lcd屏幕
 			realme q3		2021年4月22日		1299		407193			https://u.jd.com/QuRTO0c	189	5g	5000	30		高通骁龙750G中端处理器，120hzLCD屏幕
 			realme q3pro		2021年4月22日		1599		682393			https://u.jd.com/QcRaNDo	179	5g	4500	30		联发科天玑1100中高端处理器，120Hz AMOLED屏幕，线性马达
 			一加9R			2021年4月15日		2999		696858			https://u.jd.com/Q7RD5KV	189	5g	4500	65		高通骁龙870高端处理器，三星120Hz刷新率2.5D柔性直屏
 			中兴Axon 30 pro		2021年4月15日		2998		780110			https://u.jd.com/QaRpax6	185	5g	4200	55		高通骁龙888顶级处理器，三星AMOLED支持120Hz刷新率
 			中兴Axon 30 Ultra	2021年4月15日		4698		797867			https://u.jd.com/QDR3FBM	188	5g	4600	66		高通骁龙888顶级处理器，三星AMOLED支持120Hz刷新率
-			拯救者电竞手机2 Pro	2021年4月8日		3699		824133			https://u.jd.com/QeRBe0Y	239	5g	5500	90		高通骁龙888顶级处理器，144hz屏幕，
+			拯救者电竞手机2 Pro	2021年4月8日		3699		824133			https://u.jd.com/QeRBe0Y	239	5g	5500	90		高通骁龙888顶级处理器，144hz oled屏幕，
 			--2021年3月																			
 			realme gt neo		2021年3月31日		1799		714156			https://u.jd.com/QCRTCLv	179	5g	4500	55		联发科天玑1200高端处理器，120Hz 三星电竞屏
-			小米mixFolder		2021年3月30日		9999		795655			https://u.jd.com/QWRrsve	317	5g	5020	67		高通骁龙888顶级处理器，90hz折叠屏幕
-			小米11Ultra		2021年3月29日		5999		819452			https://u.jd.com/QORSyYa	234	5g	5000	67		高通骁龙888顶级处理器，2K四曲面全面屏，67W无线，10W反向无线充电，nfc
-			小米11pro 		2021年3月29日		4999		826896			https://u.jd.com/QURBACL	208	5g	5000	67		高通骁龙888顶级处理器，2K四曲面全面屏，67W无线，10W反向无线充电，nfc
-			小米11青春版 		2021年3月29日		2299		544428			https://u.jd.com/QtRPQoT	159	5g	4250	33		高通骁龙780g中高端处理器，
-			一加9			2021年3月24日		3799		827794			https://u.jd.com/QYRYuWq	183	5g	4500	65		高通骁龙888顶级处理器，1080p屏幕，哈苏相机
-			一加9pro		2021年3月24日		4999		843180			https://u.jd.com/QuRONpg	197	5g	4500	65		高通骁龙888顶级处理器，2K屏幕，哈苏相机，50w无线充电
-			黑鲨4			2021年3月23日		2499		796293			https://u.jd.com/QBRSoXs	210	5g	4500	120		高通骁龙870高端处理器
-			黑鲨4pro		2021年3月23日		3999		877818			https://u.jd.com/QjR2ODv	220	5g	4500	120		高通骁龙888顶级处理器
-			荣耀v40轻奢版		2021年3月23		2999		350000			https://u.jd.com/QtRrTYb	169	5g	3800	66		联发科天玑800U中端处理
+			小米mixFolder		2021年3月30日		9999		795655			https://u.jd.com/QWRrsve	317	5g	5020	67		高通骁龙888顶级处理器，90hz oled折叠屏幕
+			小米11Ultra		2021年3月29日		5999		819452			https://u.jd.com/QORSyYa	234	5g	5000	67		高通骁龙888顶级处理器，2K四曲面120hz oled全面屏，67W无线，10W反向无线充电，nfc
+			小米11pro 		2021年3月29日		4999		826896			https://u.jd.com/QURBACL	208	5g	5000	67		高通骁龙888顶级处理器，2K四曲面120hz oled全面屏，67W无线，10W反向无线充电，nfc
+			小米11青春版 		2021年3月29日		2299		544428			https://u.jd.com/QtRPQoT	159	5g	4250	33		高通骁龙780g中高端处理器，90Hz oled屏幕
+			一加9			2021年3月24日		3799		827794			https://u.jd.com/QYRYuWq	183	5g	4500	65		高通骁龙888顶级处理器，1080p 120hz屏幕，哈苏相机
+			一加9pro		2021年3月24日		4999		843180			https://u.jd.com/QuRONpg	197	5g	4500	65		高通骁龙888顶级处理器，2K 120hz屏幕，哈苏相机，50w无线充电
+			黑鲨4			2021年3月23日		2499		796293			https://u.jd.com/QBRSoXs	210	5g	4500	120		高通骁龙870高端处理器，144Hz三星AMOLED
+			黑鲨4pro		2021年3月23日		3999		877818			https://u.jd.com/QjR2ODv	220	5g	4500	120		高通骁龙888顶级处理器，144Hz三星AMOLED
+			荣耀v40轻奢版		2021年3月23		2999		350000			https://u.jd.com/QtRrTYb	169	5g	3800	66		联发科天玑800U中端处理，90Hz OLED屏幕
 			iqoo neo 5		2021年3月16日		2499		719953			https://u.jd.com/QxRru3y	198	5g	4400	66		高通骁龙870高端处理器，三星120Hz刷新率AMOLED直屏
-			oppofindx3		2021年3月16日		4499		724037			https://u.jd.com/QaRnYj4	193	5g	4500	65		高通骁龙870高端处理器，
-			oppofindx3pro		2021年3月16日		5499		831773			https://u.jd.com/QbRDTKG	193	5g	4500	65		高通骁龙888顶级处理器，30w无线充电
-			小米10s			2021年3月10日		3299		700204			https://u.jd.com/QFRvqNl	208	5g	4780	33		高通骁龙870高端处理器，30w无线充电，10w反向充电，dxomark最强外放
-			ROG游戏手机5		2021年3月10日		3999		729300			https://u.jd.com/QNRvgty	238	5g	6000	65		高通骁龙888顶级处理器
-			ROG游戏手机5pro		2021年3月10日		7999		729300			https://u.jd.com/QNRvgty	238	5g	6000	65		高通骁龙888顶级处理器
-			红魔6			2021年3月4日		3799		730784			https://u.jd.com/QERDDav	220	5g	5050	66		高通骁龙888顶级处理器，165Hz屏幕
-			红魔6pro		2021年3月4日		4399		829109			https://u.jd.com/QyRaAIL	220	5g	4500	120		高通骁龙888顶级处理器，165Hz屏幕
-			realme gt		2021年3月4日		2799		834118			https://u.jd.com/QSRam3t	186	5g	4500	65		高通骁龙888顶级处理器，120hz屏幕
-			魅族18			2021年3月3日		4399		809079			https://u.jd.com/QdRB12A	162	5g	4000	30		高通骁龙888顶级处理器，三星E4屏幕
-			魅族18 Pro		2021年3月3日		4999		701966			https://u.jd.com/QuRgfNW	189	5g	4500	45		高通骁龙888顶级处理器，三星E4屏幕，40w无线快充，10w反向充电
+			oppofindx3		2021年3月16日		4499		724037			https://u.jd.com/QaRnYj4	193	5g	4500	65		高通骁龙870高端处理器，120hz oled屏幕
+			oppofindx3pro		2021年3月16日		5499		831773			https://u.jd.com/QbRDTKG	193	5g	4500	65		高通骁龙888顶级处理器，120hz oled屏幕，30w无线充电
+			小米10s			2021年3月10日		3299		700204			https://u.jd.com/QFRvqNl	208	5g	4780	33		高通骁龙870高端处理器，90hz oled屏幕，30w无线充电，10w反向充电，dxomark最强外放
+			ROG游戏手机5		2021年3月10日		3999		729300			https://u.jd.com/QNRvgty	238	5g	6000	65		高通骁龙888顶级处理器，144hz oled屏幕
+			ROG游戏手机5pro		2021年3月10日		7999		729300			https://u.jd.com/QNRvgty	238	5g	6000	65		高通骁龙888顶级处理器，144hz oled屏幕
+			红魔6			2021年3月4日		3799		730784			https://u.jd.com/QERDDav	220	5g	5050	66		高通骁龙888顶级处理器，165Hz AMOLED屏幕
+			红魔6pro		2021年3月4日		4399		829109			https://u.jd.com/QyRaAIL	220	5g	4500	120		高通骁龙888顶级处理器，165Hz AMOLED屏幕
+			realme gt		2021年3月4日		2799		834118			https://u.jd.com/QSRam3t	186	5g	4500	65		高通骁龙888顶级处理器，120hz AMOLED屏幕
+			魅族18			2021年3月3日		4399		809079			https://u.jd.com/QdRB12A	162	5g	4000	30		高通骁龙888顶级处理器，120hz 三星E4屏幕
+			魅族18 Pro		2021年3月3日		4999		701966			https://u.jd.com/QuRgfNW	189	5g	4500	45		高通骁龙888顶级处理器，120hz 三星E4屏幕，40w无线快充，10w反向充电
 			--2021年2月 																
 			华为matex2		2021年2月22日		17999		633466			https://u.jd.com/QqRgwY2	295	5g	4500	55		麒麟9000高端处理器，90hz折叠屏幕	
 			红米k40			2021年2月25日		1999		693232			https://u.jd.com/QrRBLyg	196	5g	4520	33		高通骁龙870高端处理器，120hz E4屏幕，X轴线性马达，红外，nfc
@@ -71,7 +82,7 @@ namespace shihao316558512.github.io
 			三星S21+		2021年1月18日		7199		700000			https://u.jd.com/tVLxKX2	200	5g	4800	25		高通骁龙888顶级处理器，120hzAmoled屏幕，15w无线充电
 			三星S21 Ultra		2021年1月18日		9699		700000			https://u.jd.com/tZL7egJ	227	5g	5100	25		高通骁龙888顶级处理器，120hzAmoled屏幕，15w无线充电，S Pen
 			iqoo7			2021年1月11日		3798		752939			https://u.jd.com/tgTVtCt	209	5g	4000	120		高通骁龙888顶级处理器，120hzAmoled屏幕
-			realmeV15		2021年1月7日		1399		341298			https://u.jd.com/t6Rf8sP	176	5g	4310	50		联发科天玑800U中端处理器，国潮色
+			realmeV15		2021年1月7日		1399		341298			https://u.jd.com/t6Rf8sP	176	5g	4310	50		联发科天玑800U中端处理器，60hz amoled屏幕，国潮色
 			--2020年12月														
 			vivo X60		2020年12月29日		3498		693600			https://u.jd.com/tKQxePF	175	5g	4300	33		三星Exynos 1080高端处理，120hz三星AMOLED直屏，
 			vivo X60 Pro		2020年12月29日		4498		693600			https://u.jd.com/taqtyfo	178	5g	4200	33		三星Exynos 1080高端处理，120Hz三星AMOLED曲面屏
@@ -228,6 +239,7 @@ namespace shihao316558512.github.io
 			--2019年8														          	    	  		
 			Redmi Note8		2019年8月29日		899		175623			https://u.jd.com/h1ASv6		190	4g	4000	18		高通665低端cpu，1000内可选
 			Redmi Note8 pro		2019年8月29日		1399		289559			https://u.jd.com/oZUdHt		199	4g	4500	18		联发科g90t中低端cpu，有nfc，水桶机，建议选购8+128版本，目前售价在1500内
+
 
 ";
             string[] b = a.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
